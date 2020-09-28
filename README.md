@@ -15,7 +15,7 @@ v0.2
 功能改善：改善大文件的读取方式（当读取23.5MB的字典文件时，cpu占用非常高，程序跑的也很慢）  
 功能添加：对不同换行结尾的字典文件同时兼容（linux下创建的文件默认以\n结尾，windows下创建的文件默认以\r\n结尾）
 
-# 0x02 字典介绍
+# 0x02 收集记录
 https://github.com/insightglacier/Dictionary-Of-Pentesting/tree/master/Generalpassword 中的全部字典收集到 ybdt-full-dict.txt  
 https://github.com/honorxux/Fuzz-Dicts/tree/master/%E5%AF%86%E7%A0%81%E5%AD%97%E5%85%B8 中的1000常用密码字典.txt和6000常用密码字典.txt收集到 ybdt-full-dict.txt  
 https://weakpass.com/ 中的online_brute收集到 各种服务常见弱口令/ssh-weak-pass.txt  
