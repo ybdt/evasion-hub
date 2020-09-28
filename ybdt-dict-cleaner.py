@@ -2,12 +2,12 @@
 
 import sys
 
-f = open("ybdt-dict-content.txt", "a");#if not exist, create it, if exist, do nothing
+f = open("ybdt-full-dict.txt", "a");#if not exist, create it, if exist, do nothing
 f.close();
 
 def cut_repeat(dict):
     f_new = open(dict, "r");
-    f_old = open("ybdt-dict-content.txt", "r");
+    f_old = open("ybdt-full-dict.txt", "r");
     tmp = f_old.readlines();
     print( "The old file count is: " + str(len(tmp)) );
     #print("The old file is:");
@@ -32,7 +32,7 @@ def cut_repeat(dict):
     f_new.close();
     f_old.close();
     
-    f = open("ybdt-dict-content.txt", "w");
+    f = open("ybdt-full-dict.txt", "w");
     for line in tmp_:
         f.write(line + "\n");
     f.close();
