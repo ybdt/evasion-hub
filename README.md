@@ -17,5 +17,7 @@ v0.2
 
 # 0x02 字典介绍
 ybdt-dict-content.txt收集的字典包括：  
-https://github.com/insightglacier/Dictionary-Of-Pentesting/tree/master/Generalpassword 中的全部字典  
-https://github.com/honorxux/Fuzz-Dicts/tree/master/%E5%AF%86%E7%A0%81%E5%AD%97%E5%85%B8 中的1000常用密码字典.txt和6000常用密码字典.txt
+https://github.com/insightglacier/Dictionary-Of-Pentesting/tree/master/Generalpassword 中的全部字典收集到ybdt-full-dict.txt  
+https://github.com/honorxux/Fuzz-Dicts/tree/master/%E5%AF%86%E7%A0%81%E5%AD%97%E5%85%B8 中的1000常用密码字典.txt和6000常用密码字典.txt收集到ybdt-full-dict.txt  
+https://weakpass.com/ 中的online_brute收集到
+https://github.com/rootphantomer/Blasting_dictionary 中的weblogic默认密码列表.txt收集到各种服务的默认帐号密码/weblogic-default-passwd.txt 
