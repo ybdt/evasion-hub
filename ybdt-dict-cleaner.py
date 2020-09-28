@@ -1,11 +1,11 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 
 import sys
 
-def cut_repeat(dict):
-    f = open("ybdt-dict-content.txt", "a");#if not exist, create it, if exist, do nothing
-    f.close();
+f = open("ybdt-dict-content.txt", "a");#if not exist, create it, if exist, do nothing
+f.close();
 
+def cut_repeat(dict):
     f_new = open(dict, "r");
     f_old = open("ybdt-dict-content.txt", "r");
     tmp = f_old.readlines();
@@ -47,5 +47,4 @@ def main():
     
     cut_repeat(dict);
 
-if __name__ == "__main__":
-    main();
+main();
