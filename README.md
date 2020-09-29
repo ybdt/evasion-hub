@@ -23,3 +23,6 @@ https://github.com/honorxux/Fuzz-Dicts/tree/master/%E5%AF%86%E7%A0%81%E5%AD%97%E
 https://weakpass.com/ 中的online_brute 收集到 各种服务常见弱口令/ssh-weak-pass.txt  
 https://github.com/rootphantomer/Blasting_dictionary 中的weblogic默认密码列表.txt 收集到 各种服务默认口令/weblogic-default-passwd.txt  
 https://github.com/droope/pwlist 中saved/saved1.txt 收集到 ybdt-full-dict.txt
+
+# 0x03 贡献介绍
+欢迎各位师傅提交issue，贡献完全口令字典、常见口令字典、默认口令字典，我会将被收录issue的贡献者列在下方
