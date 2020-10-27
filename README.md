@@ -32,5 +32,8 @@ https://download.csdn.net/download/ljp123123ljp/9145013 收录到->常见中国�
 https://www.iteye.com/resource/h4ck1y-10653176 收录到->web-weak-pass-top1002.txt  
 平时渗透测试收集的口令收录到->web-weak-pass-top1002.txt
 
+厂商设备：  
+https://lionking.top/2019/09/15/%E5%90%84%E5%A4%A7%E5%8E%82%E5%95%86%E8%AE%BE%E5%A4%87%E9%BB%98%E8%AE%A4%E5%AF%86%E7%A0%81/ 收录到->readme.md
+
 # 0x03 贡献介绍
 欢迎各位师傅提交issue，我会将被收录的字典贡献者列在下方
