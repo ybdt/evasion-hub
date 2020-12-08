@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
-with open("username.txt", "r") as fu:
-    with open("password.txt", "r") as fp:
+with open("user.txt", "r") as fu:
+    with open("pass.txt", "r") as fp:
         with open("user-pass.txt", "w") as fn:
             fuser = fu.readlines();
             fpass = fp.readlines();
