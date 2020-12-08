@@ -3,15 +3,7 @@
 # 0x00 项目介绍
 本项目将字典按照服务分类，每个服务下包含用户名fuzz字典、口令fuzz字典、默认口令fuzz字典中的一种或几种
 
-# 0x01 工具介绍
-v0.1  
-功能介绍：读取一个字典文件，去重，合并到ybdt-full-dict.txt中
-
-v0.2  
-功能改善：改善大文件的读取方式（当读取23.5MB的字典文件时，cpu占用非常高，程序跑的也很慢）  
-功能添加：对不同换行结尾的字典文件同时兼容（linux下创建的文件默认以\n结尾，windows下创建的文件默认以\r\n结尾）
-
-# 0x02 项目记录
+# 0x01 项目记录
 SSH：  
 [https://weakpass.com/](https://weakpass.com/)中的online_brute收录到ssh-pass-fuzz-top52.txt
 
