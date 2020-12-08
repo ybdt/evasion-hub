@@ -12,20 +12,29 @@ v0.2
 功能添加：对不同换行结尾的字典文件同时兼容（linux下创建的文件默认以\n结尾，windows下创建的文件默认以\r\n结尾）
 
 # 0x02 项目记录
-SSH:  
-!(https://weakpass.com/)[https://weakpass.com/]中的online_brute收录到ssh-pass-fuzz-top52.txt
+SSH：  
+[https://weakpass.com/](https://weakpass.com/)中的online_brute收录到ssh-pass-fuzz-top52.txt
 
-WebLogic:  
-!(https://github.com/rootphantomer/Blasting_dictionary)[https://github.com/rootphantomer/Blasting_dictionary]中的weblogic默认密码列表.txt收录到weblogic-default-user:pass-fuzz-top8.txt
+Tomcat：  
+[https://github.com/magicming200/tomcat-weak-password-scanner](https://github.com/magicming200/tomcat-weak-password-scanner)中的username.txt和password.txt收录到tomcat-user:pass-fuzz-top424.txt
 
-Tomcat:  
-!(https://github.com/magicming200/tomcat-weak-password-scanner)[https://github.com/magicming200/tomcat-weak-password-scanner]中的username.txt和password.txt收录到tomcat-user:pass-fuzz-top424.txt
-
-WEB:  
-!(https://download.csdn.net/download/ljp123123ljp/9145013)[https://download.csdn.net/download/ljp123123ljp/9145013]收录到web-user-fuzz-top605-for-chinese.txt  
+WEB：  
+[https://download.csdn.net/download/ljp123123ljp/9145013](https://download.csdn.net/download/ljp123123ljp/9145013)收录到web-user-fuzz-top605-for-chinese.txt  
 渗透测试中收集到的姓名收录到web-user-fuzz-top605-for-chinese.txt  
-!(https://www.iteye.com/resource/h4ck1y-10653176)[https://www.iteye.com/resource/h4ck1y-10653176]收录到web-pass-fuzz-top1002.txt  
+[https://www.iteye.com/resource/h4ck1y-10653176](https://www.iteye.com/resource/h4ck1y-10653176)收录到web-pass-fuzz-top1002.txt  
 渗透测试中收集到的口令收录到web-pass-fuzz-top1002.txt
 
+WebLogic：  
+[https://github.com/rootphantomer/Blasting_dictionary](https://github.com/rootphantomer/Blasting_dictionary)中的weblogic默认密码列表.txt收录到weblogic-default-user:pass-fuzz-top8.txt
+
 厂商设备：  
-!(https://lionking.top/2019/09/15/%E5%90%84%E5%A4%A7%E5%8E%82%E5%95%86%E8%AE%BE%E5%A4%87%E9%BB%98%E8%AE%A4%E5%AF%86%E7%A0%81/)[https://lionking.top/2019/09/15/%E5%90%84%E5%A4%A7%E5%8E%82%E5%95%86%E8%AE%BE%E5%A4%87%E9%BB%98%E8%AE%A4%E5%AF%86%E7%A0%81/]收录到readme.md
+[https://lionking.top/2019/09/15/%E5%90%84%E5%A4%A7%E5%8E%82%E5%95%86%E8%AE%BE%E5%A4%87%E9%BB%98%E8%AE%A4%E5%AF%86%E7%A0%81/](https://lionking.top/2019/09/15/%E5%90%84%E5%A4%A7%E5%8E%82%E5%95%86%E8%AE%BE%E5%A4%87%E9%BB%98%E8%AE%A4%E5%AF%86%E7%A0%81/)收录到readme.md
+
+字典去重：  
+dict-cleaner.py->字典去重工具  
+dict-cleaned.txt->去重后的字典
+
+数字：  
+4-digital-dict.txt->4位数字字典  
+6-digital-dict.txt->6位数字字典  
+digital-dict-generator.py->数字字典生成器
