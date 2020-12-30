@@ -12,7 +12,7 @@
 字典将按照“服务”分类，每个“服务”下包含各种fuzz字典
 
 ### SSH：
-[https://weakpass.com/](https://weakpass.com/)中的“online_brute”收录到“SSH/ssh-pass-fuzz-top52.txt”
+[https://weakpass.com/wordlist/1847](https://weakpass.com/wordlist/1847)收录到“SSH/ssh-pass-fuzz-top52.txt”
 
 ### Tomcat：
 [https://github.com/magicming200/tomcat-weak-password-scanner](https://github.com/magicming200/tomcat-weak-password-scanner)中的“username.txt”和“password.txt”收录到“Tomcat/tomcat-user:pass-fuzz-top424.txt”  
