@@ -7,8 +7,8 @@
 # 0x02 记录
 字典将按照“服务”分类，每个“服务”下包含各种fuzz字典
 
-dict-cleaner.py：字典去重工具  
-dict-cleaned.txt：去重后的字典
+## dict-cleaner.py
+功能1：可对指定文件（如dict.txt）去重，生成去重后的新文件（新文件名dict-new.txt）
 
 ### SSH：
 [https://weakpass.com/](https://weakpass.com/)中的“online_brute”收录到“SSH/ssh-pass-fuzz-top52.txt”
