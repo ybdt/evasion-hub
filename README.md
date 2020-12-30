@@ -17,6 +17,9 @@
 字典将按照“服务”分类，每个“服务”下包含各种fuzz字典  
 新字典添加到本项目前，会进行去重、去除每行首尾的空格
 
+### MySQL：
+[https://github.com/3had0w/Fuzzing-Dicts/blob/master/MySQL-Password%EF%BC%883050%EF%BC%89.txt](https://github.com/3had0w/Fuzzing-Dicts/blob/master/MySQL-Password%EF%BC%883050%EF%BC%89.txt)收录到“MySQL/mysql密码-fuzz-top2791.txt”
+
 ### SSH：
 [https://weakpass.com/wordlist/1847](https://weakpass.com/wordlist/1847)收录到“SSH/ssh-pass-fuzz-top52.txt”
 
