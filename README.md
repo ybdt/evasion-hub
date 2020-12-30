@@ -1,22 +1,21 @@
-# 0x00 前言
+# 0x00 项目前言
 项目缘起：总能看到有人分享各种字典，拿到字典后又发现很多重复的东西，手动去重太麻烦了，想到写一个字典去重工具，想法越来越多，故有此项目
 
-# 0x01 目标
+# 0x01 项目宗旨
 本项目旨在记录我在渗透测试中用到的有效字典，对于相关的优秀项目，我并不会将字典全部收集到这里，而是列到文末
 
 # 0x02 dict-cleaner.py
 功能：可对指定文件（如dict.txt）去重，生成去重后的新文件（新文件名dict-new.txt）  
 2020/12/30新增功能：对linux和windows下换行符做适配
 
-# 0x03 记录
+# 0x03 项目记录
 字典将按照“服务”分类，每个“服务”下包含各种fuzz字典
 
 ### SSH：
 [https://weakpass.com/wordlist/1847](https://weakpass.com/wordlist/1847)收录到“SSH/ssh-pass-fuzz-top52.txt”
 
 ### Tomcat：
-[https://github.com/magicming200/tomcat-weak-password-scanner/blob/master/username.txt](https://github.com/magicming200/tomcat-weak-password-scanner/blob/master/username.txt)和[https://github.com/magicming200/tomcat-weak-password-scanner/blob/master/password.txt](https://github.com/magicming200/tomcat-weak-password-scanner/blob/master/password.txt)收录到“Tomcat/tomcat-user:pass-fuzz-top424.txt”  
-generate-tomcat-user:pass.py：读取user.txt和pass.txt并生成符合tomcat验证时的格式user:pass
+[https://github.com/magicming200/tomcat-weak-password-scanner/blob/master/username.txt](https://github.com/magicming200/tomcat-weak-password-scanner/blob/master/username.txt)和[https://github.com/magicming200/tomcat-weak-password-scanner/blob/master/password.txt](https://github.com/magicming200/tomcat-weak-password-scanner/blob/master/password.txt)收录到“Tomcat/tomcat-user:pass-fuzz-top424.txt”
 
 ### WEB（最后更新时间2020/12/30）：
 [https://download.csdn.net/download/ljp123123ljp/9145013](https://download.csdn.net/download/ljp123123ljp/9145013)收录到“WEB/中国人姓名-fuzz-top605.txt”  
@@ -42,6 +41,6 @@ generate-tomcat-user:pass.py：读取user.txt和pass.txt并生成符合tomcat验
 6-digital-dict.txt：6位数字字典  
 digital-dict-generator.py：数字字典生成器
 
-# 0x04 相关
+# 0x04 相关项目
 https://github.com/3had0w/Fuzzing-Dicts  
 https://github.com/TheKingOfDuck/fuzzDicts
