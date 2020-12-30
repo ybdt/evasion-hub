@@ -22,7 +22,7 @@ generate-tomcat-user:pass.py：读取user.txt和pass.txt并生成符合tomcat验
 +  
 [https://www.iteye.com/resource/h4ck1y-10653176](https://www.iteye.com/resource/h4ck1y-10653176)收录到“WEB/网站后台密码-fuzz-top1002.txt”  
 +  
-[https://github.com/3had0w/Fuzzing-Dicts](https://github.com/3had0w/Fuzzing-Dicts)中的“常见网站备份文件字典（2954）.txt”收录到“WEB/网站备份目录文件-fuzz-top2962.txt”  
+[https://github.com/3had0w/Fuzzing-Dicts](https://github.com/3had0w/Fuzzing-Dicts)中的“常见网站备份文件字典（2954）.txt”收录到“WEB/网站备份目录文件-fuzz-top2962.txt”且经过ybdt-dict-cleaner.py去重  
 +  
 渗透测试中收集的字典
 
