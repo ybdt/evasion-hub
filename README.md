@@ -38,8 +38,7 @@
 
 ### 数字相关字典：
 4-digital-dict.txt：4位数字字典  
-6-digital-dict.txt：6位数字字典  
-digital-dict-generator.py：数字字典生成器
+6-digital-dict.txt：6位数字字典
 
 # 0x04 相关项目
 https://github.com/3had0w/Fuzzing-Dicts  
