@@ -5,22 +5,23 @@
 
 # 0x01 项目记录
 ### SSH：
-[https://weakpass.com/](https://weakpass.com/)中的online_brute收录到ssh-pass-fuzz-top52.txt
+[https://weakpass.com/](https://weakpass.com/)中的online_brute收录到“ssh-pass-fuzz-top52.txt”
 
 ### Tomcat：
-[https://github.com/magicming200/tomcat-weak-password-scanner](https://github.com/magicming200/tomcat-weak-password-scanner)中的username.txt和password.txt收录到tomcat-user:pass-fuzz-top424.txt  
+[https://github.com/magicming200/tomcat-weak-password-scanner](https://github.com/magicming200/tomcat-weak-password-scanner)中的“username.txt”和“password.txt”收录到“tomcat-user:pass-fuzz-top424.txt”  
 generate-tomcat-user:pass.py：读取user.txt和pass.txt并生成符合tomcat验证时的格式user:pass
 
 ### WEB：
-[https://download.csdn.net/download/ljp123123ljp/9145013](https://download.csdn.net/download/ljp123123ljp/9145013)收录到中国人姓名-fuzz-top605.txt  
-[https://www.iteye.com/resource/h4ck1y-10653176](https://www.iteye.com/resource/h4ck1y-10653176)收录到网站后台密码-fuzz-top1002.txt  
+[https://download.csdn.net/download/ljp123123ljp/9145013](https://download.csdn.net/download/ljp123123ljp/9145013)收录到“中国人姓名-fuzz-top605.txt”  
+[https://www.iteye.com/resource/h4ck1y-10653176](https://www.iteye.com/resource/h4ck1y-10653176)收录到“网站后台密码-fuzz-top1002.txt”  
+[https://github.com/3had0w/Fuzzing-Dicts](https://github.com/3had0w/Fuzzing-Dicts)中的“常见网站备份文件字典（2954）.txt”收录到“网站备份目录文件-fuzz-top2962.txt”
 平时渗透中收集的
 
 ### WebLogic：
-[https://github.com/rootphantomer/Blasting_dictionary](https://github.com/rootphantomer/Blasting_dictionary)中的weblogic默认密码列表.txt收录到weblogic-default-user:pass-fuzz-top8.txt
+[https://github.com/rootphantomer/Blasting_dictionary](https://github.com/rootphantomer/Blasting_dictionary)中的“weblogic默认密码列表.txt”收录到“weblogic-default-user:pass-fuzz-top8.txt”
 
 ### 厂商设备：
-[https://lionking.top/2019/09/15/%E5%90%84%E5%A4%A7%E5%8E%82%E5%95%86%E8%AE%BE%E5%A4%87%E9%BB%98%E8%AE%A4%E5%AF%86%E7%A0%81/](https://lionking.top/2019/09/15/%E5%90%84%E5%A4%A7%E5%8E%82%E5%95%86%E8%AE%BE%E5%A4%87%E9%BB%98%E8%AE%A4%E5%AF%86%E7%A0%81/)收录到readme.md
+[https://lionking.top/2019/09/15/%E5%90%84%E5%A4%A7%E5%8E%82%E5%95%86%E8%AE%BE%E5%A4%87%E9%BB%98%E8%AE%A4%E5%AF%86%E7%A0%81/](https://lionking.top/2019/09/15/%E5%90%84%E5%A4%A7%E5%8E%82%E5%95%86%E8%AE%BE%E5%A4%87%E9%BB%98%E8%AE%A4%E5%AF%86%E7%A0%81/)收录到“readme.md”
 
 ### 字典去重：
 dict-cleaner.py：字典去重工具  
