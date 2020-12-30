@@ -1,0 +1,27 @@
+C:\boot.ini
+C:\php5\php.ini
+C:\php4\php.ini
+C:\php\php.ini
+C:\Windows\php.ini
+C:\WINNT\php.ini
+C:\apache\php\php.ini
+C:\xampp\apache\bin\php.ini
+C:\phpStudy\Apache\conf\httpd.conf
+C:\phpStudy\Apache\conf\vhosts.conf
+C:\Windows\system32\inetsrv\MetaBase.xml
+C:\Windows\System32\inetsrv\config\applicationHost.config
+C:\wamp\bin\apache\logs\access.log
+C:\wamp\bin\mysql\mysql5.5.24\wampserver.conf
+C:\wamp\bin\apache\apache2.2.22\conf\httpd.conf
+C:\wamp\bin\apache\apache2.2.22\conf\wampserver.conf
+C:\wamp\bin\apache\apache2.2.22\conf\httpd.conf.build
+C:\Program Files\Apache Group\Apache\logs\access.log
+C:\Program Files\Apache Group\Apache\logs\error.log
+C:\Program Files\Apache Group\Apache\conf\httpd.conf
+C:\Program Files\Apache Group\Apache2\conf\httpd.conf
+C:\Program Files (x86)\Apache Group\Apache\logs\access.log
+C:\Program Files (x86)\Apache Group\Apache\logs\error.log
+C:\Program Files\xampp\apache\conf\httpd.conf
+C:\Program Files\Apache Software Foundation\Apache2.2\conf\httpd.conf
+C:\Program Files\Apache Software Foundation\Apache2.2\logs\error.log
+C:\Program Files\Apache Software Foundation\Apache2.2\logs\access.log
