@@ -1,4 +1,4 @@
-# 0x00 前言
+# 0x00 项目前言
 项目缘起：总能看到有人分享各种字典，拿到字典后又发现很多重复的东西，手动去重太麻烦了，想到写一个字典去重工具，想法越来越多，进而有了此项目
 
 # 0x01 项目介绍
@@ -35,6 +35,6 @@ generate-tomcat-user:pass.py：读取user.txt和pass.txt并生成符合tomcat验
 6-digital-dict.txt：6位数字字典  
 digital-dict-generator.py：数字字典生成器
 
-# 0x03 其他字典项目
+# 0x03 其他项目
 https://github.com/3had0w/Fuzzing-Dicts  
 https://github.com/TheKingOfDuck/fuzzDicts
