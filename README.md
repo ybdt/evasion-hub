@@ -9,7 +9,8 @@
 2020/12/30新增功能：对linux和windows下换行符做适配
 
 # 0x03 项目记录
-字典将按照“服务”分类，每个“服务”下包含各种fuzz字典
+字典将按照“服务”分类，每个“服务”下包含各种fuzz字典  
+新字典添加到本项目前，会进行去重、去除每行首尾的空格
 
 ### SSH：
 [https://weakpass.com/wordlist/1847](https://weakpass.com/wordlist/1847)收录到“SSH/ssh-pass-fuzz-top52.txt”
