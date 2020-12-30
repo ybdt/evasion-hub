@@ -20,8 +20,8 @@ def cut_repeat(dict):
 
             #每次添加到数组前，比对是否在数组中出现过，没出现过则添加到数组中
             for line in lines:
-                if line.strip(return_line) not in tmp:
-                    tmp.append( line.strip(return_line) );
+                if line.strip() not in tmp:
+                    tmp.append( line.strip() );
                 else:
                     continue;
             
