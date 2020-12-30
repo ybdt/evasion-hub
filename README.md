@@ -27,6 +27,8 @@ generate-tomcat-user:pass.py：读取user.txt和pass.txt并生成符合tomcat验
 +  
 [https://github.com/3had0w/Fuzzing-Dicts/blob/master/LFI-Interesting-Files%EF%BC%88249%EF%BC%89.txt](https://github.com/3had0w/Fuzzing-Dicts/blob/master/LFI-Interesting-Files%EF%BC%88249%EF%BC%89.txt)经过ybdt-dict-cleaner.py去重后，收录到“WEB/本地文件包含（Linux）-fuzz-top222.txt”和“WEB/本地文件包含（Windows）-fuzz-top27.txt”  
 +  
+[https://github.com/3had0w/Fuzzing-Dicts/blob/master/%E9%AB%98%E6%95%88%E7%BD%91%E7%AB%99%E5%90%8E%E5%8F%B0%E7%9B%AE%E5%BD%95%E5%AD%97%E5%85%B8%EF%BC%8820101%EF%BC%89.txt](https://github.com/3had0w/Fuzzing-Dicts/blob/master/%E9%AB%98%E6%95%88%E7%BD%91%E7%AB%99%E5%90%8E%E5%8F%B0%E7%9B%AE%E5%BD%95%E5%AD%97%E5%85%B8%EF%BC%8820101%EF%BC%89.txt)经过ybdt-dict-cleaner.py去重后，收录到“WEB/网站目录-fuzz-top20101.txt”  
++  
 渗透测试中收集的字典
 
 ### WebLogic：
