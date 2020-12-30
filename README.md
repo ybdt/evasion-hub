@@ -15,7 +15,7 @@
 [https://weakpass.com/wordlist/1847](https://weakpass.com/wordlist/1847)收录到“SSH/ssh-pass-fuzz-top52.txt”
 
 ### Tomcat：
-[https://github.com/magicming200/tomcat-weak-password-scanner](https://github.com/magicming200/tomcat-weak-password-scanner)中的“username.txt”和“password.txt”收录到“Tomcat/tomcat-user:pass-fuzz-top424.txt”  
+[https://github.com/magicming200/tomcat-weak-password-scanner/blob/master/username.txt](https://github.com/magicming200/tomcat-weak-password-scanner/blob/master/username.txt)和[https://github.com/magicming200/tomcat-weak-password-scanner/blob/master/password.txt](https://github.com/magicming200/tomcat-weak-password-scanner/blob/master/password.txt)收录到“Tomcat/tomcat-user:pass-fuzz-top424.txt”  
 generate-tomcat-user:pass.py：读取user.txt和pass.txt并生成符合tomcat验证时的格式user:pass
 
 ### WEB（最后更新时间2020/12/30）：
