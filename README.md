@@ -41,5 +41,10 @@
 6-digital-dict.txt：6位数字字典
 
 # 0x04 相关项目
+https://github.com/rootphantomer/Blasting_dictionary  
+https://weakpass.com/  
 https://github.com/3had0w/Fuzzing-Dicts  
-https://github.com/TheKingOfDuck/fuzzDicts
+https://github.com/TheKingOfDuck/fuzzDicts  
+https://github.com/danielmiessler/SecLists  
+https://github.com/epony4c/Exploit-Dictionary  
+https://github.com/c0ny1/upload-fuzz-dic-builder
