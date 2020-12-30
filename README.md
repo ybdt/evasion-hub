@@ -4,11 +4,11 @@
 # 0x01 目标
 本项目旨在记录我在渗透测试中用到的有效字典，对于相关的优秀项目，我并不会将字典全部收集到这里，而是列到文末
 
-# 0x02 记录
-字典将按照“服务”分类，每个“服务”下包含各种fuzz字典
+# 0x02 dict-cleaner.py
+功能：可对指定文件（如dict.txt）去重，生成去重后的新文件（新文件名dict-new.txt）
 
-### dict-cleaner.py
-功能1：可对指定文件（如dict.txt）去重，生成去重后的新文件（新文件名dict-new.txt）
+# 0x03 记录
+字典将按照“服务”分类，每个“服务”下包含各种fuzz字典
 
 ### SSH：
 [https://weakpass.com/](https://weakpass.com/)中的“online_brute”收录到“SSH/ssh-pass-fuzz-top52.txt”
@@ -37,6 +37,6 @@ generate-tomcat-user:pass.py：读取user.txt和pass.txt并生成符合tomcat验
 6-digital-dict.txt：6位数字字典  
 digital-dict-generator.py：数字字典生成器
 
-# 0x03 相关
+# 0x04 相关
 https://github.com/3had0w/Fuzzing-Dicts  
 https://github.com/TheKingOfDuck/fuzzDicts
