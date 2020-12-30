@@ -23,7 +23,9 @@ generate-tomcat-user:pass.py：读取user.txt和pass.txt并生成符合tomcat验
 +  
 [https://www.iteye.com/resource/h4ck1y-10653176](https://www.iteye.com/resource/h4ck1y-10653176)收录到“WEB/网站后台密码-fuzz-top1002.txt”  
 +  
-[https://github.com/3had0w/Fuzzing-Dicts](https://github.com/3had0w/Fuzzing-Dicts)中的“常见网站备份文件字典（2954）.txt”收录到“WEB/网站备份目录文件-fuzz-top2962.txt”且经过ybdt-dict-cleaner.py去重  
+[https://github.com/3had0w/Fuzzing-Dicts/blob/master/%E5%B8%B8%E8%A7%81%E7%BD%91%E7%AB%99%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E5%AD%97%E5%85%B8%EF%BC%882954%EF%BC%89.txt](https://github.com/3had0w/Fuzzing-Dicts/blob/master/%E5%B8%B8%E8%A7%81%E7%BD%91%E7%AB%99%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E5%AD%97%E5%85%B8%EF%BC%882954%EF%BC%89.txt)经过ybdt-dict-cleaner.py去重后，收录到“WEB/网站备份目录文件-fuzz-top2962.txt”  
++  
+[https://github.com/3had0w/Fuzzing-Dicts/blob/master/LFI-Interesting-Files%EF%BC%88249%EF%BC%89.txt](https://github.com/3had0w/Fuzzing-Dicts/blob/master/LFI-Interesting-Files%EF%BC%88249%EF%BC%89.txt)经过ybdt-dict-cleaner.py去重后，收录到“WEB/本地文件包含（Linux）-fuzz-top222.txt”和“WEB/本地文件包含（Windows）-fuzz-top27.txt”  
 +  
 渗透测试中收集的字典
 
