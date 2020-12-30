@@ -34,3 +34,7 @@ generate-tomcat-user:pass.py：读取user.txt和pass.txt并生成符合tomcat验
 4-digital-dict.txt：4位数字字典  
 6-digital-dict.txt：6位数字字典  
 digital-dict-generator.py：数字字典生成器
+
+# 0x03 其他字典项目
+https://github.com/3had0w/Fuzzing-Dicts  
+https://github.com/TheKingOfDuck/fuzzDicts
