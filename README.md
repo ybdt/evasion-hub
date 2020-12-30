@@ -32,7 +32,7 @@ generate-tomcat-user:pass.py：读取user.txt和pass.txt并生成符合tomcat验
 渗透测试中收集的字典
 
 ### WebLogic：
-[https://github.com/rootphantomer/Blasting_dictionary](https://github.com/rootphantomer/Blasting_dictionary)中的“weblogic默认密码列表.txt”收录到“WebLogic/weblogic-default-user:pass-fuzz-top8.txt”
+[https://github.com/rootphantomer/Blasting_dictionary/blob/master/weblogic%E9%BB%98%E8%AE%A4%E5%AF%86%E7%A0%81%E5%88%97%E8%A1%A8.txt](https://github.com/rootphantomer/Blasting_dictionary/blob/master/weblogic%E9%BB%98%E8%AE%A4%E5%AF%86%E7%A0%81%E5%88%97%E8%A1%A8.txt)收录到“WebLogic/weblogic-default-user:pass-fuzz-top8.txt”
 
 ### 厂商设备：
 [https://lionking.top/2019/09/15/%E5%90%84%E5%A4%A7%E5%8E%82%E5%95%86%E8%AE%BE%E5%A4%87%E9%BB%98%E8%AE%A4%E5%AF%86%E7%A0%81/](https://lionking.top/2019/09/15/%E5%90%84%E5%A4%A7%E5%8E%82%E5%95%86%E8%AE%BE%E5%A4%87%E9%BB%98%E8%AE%A4%E5%AF%86%E7%A0%81/)收录到“厂商设备/readme.md”
