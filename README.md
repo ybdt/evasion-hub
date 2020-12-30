@@ -5,6 +5,9 @@
 本项目将字典按照“服务”分类，每个“服务”下包含各种fuzz字典
 
 # 0x02 项目记录
+dict-cleaner.py：字典去重工具  
+dict-cleaned.txt：去重后的字典
+
 ### SSH：
 [https://weakpass.com/](https://weakpass.com/)中的“online_brute”收录到“SSH/ssh-pass-fuzz-top52.txt”
 
@@ -28,7 +31,3 @@ generate-tomcat-user:pass.py：读取user.txt和pass.txt并生成符合tomcat验
 4-digital-dict.txt：4位数字字典  
 6-digital-dict.txt：6位数字字典  
 digital-dict-generator.py：数字字典生成器
-
-字典去重工具：  
-dict-cleaner.py：字典去重工具  
-dict-cleaned.txt：去重后的字典
