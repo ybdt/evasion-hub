@@ -6,7 +6,7 @@
 
 # 0x02 项目记录
 ### SSH：
-[https://weakpass.com/](https://weakpass.com/)中的online_brute收录到“SSH/ssh-pass-fuzz-top52.txt”
+[https://weakpass.com/](https://weakpass.com/)中的“online_brute”收录到“SSH/ssh-pass-fuzz-top52.txt”
 
 ### Tomcat：
 [https://github.com/magicming200/tomcat-weak-password-scanner](https://github.com/magicming200/tomcat-weak-password-scanner)中的“username.txt”和“password.txt”收录到“Tomcat/tomcat-user:pass-fuzz-top424.txt”  
@@ -24,11 +24,11 @@ generate-tomcat-user:pass.py：读取user.txt和pass.txt并生成符合tomcat验
 ### 厂商设备：
 [https://lionking.top/2019/09/15/%E5%90%84%E5%A4%A7%E5%8E%82%E5%95%86%E8%AE%BE%E5%A4%87%E9%BB%98%E8%AE%A4%E5%AF%86%E7%A0%81/](https://lionking.top/2019/09/15/%E5%90%84%E5%A4%A7%E5%8E%82%E5%95%86%E8%AE%BE%E5%A4%87%E9%BB%98%E8%AE%A4%E5%AF%86%E7%A0%81/)收录到“厂商设备/readme.md”
 
-### 字典去重：
-dict-cleaner.py：字典去重工具  
-dict-cleaned.txt：去重后的字典
-
 ### 数字：
 4-digital-dict.txt：4位数字字典  
 6-digital-dict.txt：6位数字字典  
 digital-dict-generator.py：数字字典生成器
+
+字典去重工具：  
+dict-cleaner.py：字典去重工具  
+dict-cleaned.txt：去重后的字典
