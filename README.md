@@ -1,10 +1,12 @@
-# 0x00 项目前言
-项目缘起：总能看到有人分享各种字典，拿到字典后又发现很多重复的东西，手动去重太麻烦了，想到写一个字典去重工具，想法越来越多，进而有了此项目
+# 0x00 前言
+项目缘起：总能看到有人分享各种字典，拿到字典后又发现很多重复的东西，手动去重太麻烦了，想到写一个字典去重工具，想法越来越多，故有此项目
 
-# 0x01 项目介绍
-本项目将字典按照“服务”分类，每个“服务”下包含各种fuzz字典
+# 0x01 目标
+本项目旨在记录我在渗透测试中用到的有效字典，并不是要将网上的字典全都收集到这里，对于相关的优秀项目我会列到文末
 
-# 0x02 项目记录
+# 0x02 记录
+字典将按照“服务”分类，每个“服务”下包含各种fuzz字典
+
 dict-cleaner.py：字典去重工具  
 dict-cleaned.txt：去重后的字典
 
@@ -22,7 +24,7 @@ generate-tomcat-user:pass.py：读取user.txt和pass.txt并生成符合tomcat验
 +  
 [https://github.com/3had0w/Fuzzing-Dicts](https://github.com/3had0w/Fuzzing-Dicts)中的“常见网站备份文件字典（2954）.txt”收录到“WEB/网站备份目录文件-fuzz-top2962.txt”  
 +  
-平时渗透中收集的信息
+渗透测试中收集的字典
 
 ### WebLogic：
 [https://github.com/rootphantomer/Blasting_dictionary](https://github.com/rootphantomer/Blasting_dictionary)中的“weblogic默认密码列表.txt”收录到“WebLogic/weblogic-default-user:pass-fuzz-top8.txt”
@@ -35,6 +37,6 @@ generate-tomcat-user:pass.py：读取user.txt和pass.txt并生成符合tomcat验
 6-digital-dict.txt：6位数字字典  
 digital-dict-generator.py：数字字典生成器
 
-# 0x03 其他项目
+# 0x03 相关
 https://github.com/3had0w/Fuzzing-Dicts  
 https://github.com/TheKingOfDuck/fuzzDicts
