@@ -29,7 +29,7 @@
 ### Tomcat：
 [https://github.com/magicming200/tomcat-weak-password-scanner/blob/master/username.txt](https://github.com/magicming200/tomcat-weak-password-scanner/blob/master/username.txt)和[https://github.com/magicming200/tomcat-weak-password-scanner/blob/master/password.txt](https://github.com/magicming200/tomcat-weak-password-scanner/blob/master/password.txt)收录到“Tomcat/tomcat-user:pass-fuzz-top424.txt”
 
-### WEB（最后更新时间2020/12/30）：
+### WEB：
 [https://download.csdn.net/download/ljp123123ljp/9145013](https://download.csdn.net/download/ljp123123ljp/9145013)收录到“WEB/中国人姓名-fuzz-top605.txt”  
 +  
 [https://www.iteye.com/resource/h4ck1y-10653176](https://www.iteye.com/resource/h4ck1y-10653176)收录到“WEB/网站后台密码-fuzz-top1002.txt”  
