@@ -2,14 +2,24 @@
 
 import sys
 import platform
+import chardet
 
 if platform.system() == "Linux":
     return_line = "\n";
 elif platform.system() == "Windows":
     return_line = "\r\n";
 
+#识别待读取文件的字符集
+def charset_detect(dict):
+    with open(dict, "rb") as f:
+        charset_encoding = chardet.detect( f.read() )["encoding"];
+        print(charset_encoding);
+        return charset_encoding;
+
 def cut_repeat(dict):
-    with open(dict, "r", encoding="gb2312") as f_original:
+    charset_encoding = charset_detect(dict);
+    
+    with open(dict, "r", encoding=charset_encoding) as f_original:
         dict_name = dict.split(".")[0]
         with open(dict_name + "-new" + ".txt", "a") as f_new:
             lines = f_original.readlines();
