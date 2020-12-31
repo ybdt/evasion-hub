@@ -13,7 +13,7 @@ elif platform.system() == "Windows":
 def charset_detect(dict):
     with open(dict, "rb") as f:
         charset_encoding = chardet.detect( f.read() )["encoding"];
-        print(charset_encoding);
+        print("文件字符编码：" + charset_encoding);
         return charset_encoding;
 
 def cut_repeat(dict):
