@@ -2962,7 +2962,6 @@
 /cc.rar
 /88.rar
 /bd.rar
-/程序.rar
 /14.rar
 /22.rar
 /99.rar
@@ -2972,7 +2971,6 @@
 /19.rar
 /18.rar
 /oo.rar
-/程序.zip
 /xx.rar
 /版本.rar
 /yy.rar
@@ -2995,7 +2993,6 @@
 /au.zip
 /bd.zip
 /tt.rar
-/gg.rar
 /mm.rar
 /完整.zip
 /dd.rar
@@ -3007,7 +3004,6 @@
 /au.rar
 /zz.rar
 /kk.rar
-/wz.rar
 /工具.rar
 /工具.zip
 /传奇.rar
@@ -3033,9 +3029,6 @@
 /66.rar
 /m2.rar
 /09.rar
-/10.rar
-/bb.rar
-/bb.zip
 /hf.rar
 /20.rar
 /li.rar
@@ -3081,7 +3074,6 @@
 /666.rar
 /333.rar
 /777.rar
-/mdb.rar
 /888.rar
 /han.rar
 /999.rar
@@ -3094,8 +3086,6 @@
 /222.rar
 /bin.rar
 /com.rar
-/111.rar
-/111.zip
 /5.5.rar
 /5.6.rar
 /aft.rar
@@ -3112,13 +3102,11 @@
 /030.zip
 /acv.zip
 /dnf.zip
-/new.rar
 /客户端.rar
 /客户端.zip
 /pwd.rar
 /配置器.rar
 /配置器.zip
-/rar.rar
 /新版本.rar
 /sss.rar
 /新版本.zip
@@ -3244,7 +3232,6 @@
 /movie.rar
 /ichat.rar
 /haohj.rar
-/shuju.rar
 /jiang.rar
 /guest.rar
 /alexa.rar
@@ -3254,7 +3241,6 @@
 /ddie2.rar
 /zhang.rar
 /cckdm.rar
-/mysql.rar
 /mssql.rar
 /zheng.rar
 /abcde.rar
@@ -3293,8 +3279,6 @@
 传奇私服登陆器.zip
 传奇私服登陆器.rar
 /master.rar
-/111111.rar
-/111111.zip
 /wdwlee.rar
 /pnom88.rar
 /jtjmll.rar
@@ -3326,13 +3310,10 @@
 /fxngwww.rar
 /qihuftp.rar
 /wbumweb.rar
-/webroot.rar
 /bbtjweb.rar
-/website.rar
 /wjlaweb.rar
 /bbcb030.rar
 /ccev520.rar
-/install.rar
 /fmuzwww.rar
 /bvueweb.rar
 /inywxxx.rar
@@ -3361,7 +3342,6 @@
 /shenbin.zip
 /ykdsweb.zip
 /rpbdweb.zip
-/z9v8ftp.zip
 /vsjsftp.zip
 /cbzw5.5.rar
 /rtoawww.zip
@@ -3393,7 +3373,6 @@
 /irserver.rar
 /joabcqsf.rar
 /xvukiiii.rar
-/wangzhan.rar
 /gmserver.rar
 /rrkgroot.zip
 /hostsite.rar
