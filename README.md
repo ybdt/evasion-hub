@@ -1,3 +1,14 @@
+# 0x04 优秀项目
+https://github.com/rootphantomer/Blasting_dictionary  
+https://weakpass.com/  
+https://github.com/3had0w/Fuzzing-Dicts  
+https://github.com/TheKingOfDuck/fuzzDicts  
+https://github.com/danielmiessler/SecLists  
+https://github.com/epony4c/Exploit-Dictionary  
+https://github.com/c0ny1/upload-fuzz-dic-builder  
+https://github.com/gh0stkey/Web-Fuzzing-Box
+默认凭证字典：https://github.com/ihebski/DefaultCreds-cheat-sheet
+
 # 0x00 项目前言
 项目缘起：总能看到有人分享各种字典，拿到字典后又发现很多重复的东西，手动去重太麻烦了，想到写一个字典去重工具，想法越来越多，故有此项目
 
@@ -53,13 +64,3 @@
 ### 数字相关字典：
 4-digital-dict.txt：4位数字字典  
 6-digital-dict.txt：6位数字字典
-
-# 0x04 相关项目
-https://github.com/rootphantomer/Blasting_dictionary  
-https://weakpass.com/  
-https://github.com/3had0w/Fuzzing-Dicts  
-https://github.com/TheKingOfDuck/fuzzDicts  
-https://github.com/danielmiessler/SecLists  
-https://github.com/epony4c/Exploit-Dictionary  
-https://github.com/c0ny1/upload-fuzz-dic-builder  
-https://github.com/gh0stkey/Web-Fuzzing-Box
