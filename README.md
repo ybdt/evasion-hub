@@ -16,11 +16,7 @@
 2020/12/31-发现有些字典的默认字符集不是UTF-8  
 新增功能：先识别目标字典的字符集，再用指定字符集打开字典
 
-# 0x03 项目记录
-字典将按照“服务”分类，每个“服务”下包含各种fuzz字典  
-新字典添加到本项目前，会进行去重、去除每行首尾的空格
-
-# 0x04 优秀项目
+# 0x03 优秀项目
 https://github.com/rootphantomer/Blasting_dictionary  
 https://weakpass.com/  
 https://github.com/3had0w/Fuzzing-Dicts  
