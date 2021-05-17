@@ -20,13 +20,6 @@
 字典将按照“服务”分类，每个“服务”下包含各种fuzz字典  
 新字典添加到本项目前，会进行去重、去除每行首尾的空格
 
-
-
-
-
-### Tomcat：
-[https://github.com/magicming200/tomcat-weak-password-scanner/blob/master/username.txt](https://github.com/magicming200/tomcat-weak-password-scanner/blob/master/username.txt)和[https://github.com/magicming200/tomcat-weak-password-scanner/blob/master/password.txt](https://github.com/magicming200/tomcat-weak-password-scanner/blob/master/password.txt)收录到“Tomcat/tomcat-user:pass-fuzz-top424.txt”
-
 ### WEB：
 [https://download.csdn.net/download/ljp123123ljp/9145013](https://download.csdn.net/download/ljp123123ljp/9145013)收录到“WEB/中国人姓名-fuzz-top605.txt”  
 +  
