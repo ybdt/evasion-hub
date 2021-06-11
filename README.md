@@ -10,4 +10,4 @@ https://github.com/danielmiessler/SecLists
 https://github.com/epony4c/Exploit-Dictionary  
 https://github.com/c0ny1/upload-fuzz-dic-builder  
 https://github.com/gh0stkey/Web-Fuzzing-Box  
-默认凭证字典：https://github.com/ihebski/DefaultCreds-cheat-sheet
+[https://github.com/ihebski/DefaultCreds-cheat-sheet](https://github.com/ihebski/DefaultCreds-cheat-sheet)——默认凭证字典
