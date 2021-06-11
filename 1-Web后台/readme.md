@@ -2,7 +2,7 @@
 1、https://raw.githubusercontent.com/dustyfresh/dictionaries/master/DirBuster-Lists/directory-list-2.3-medium.txt  
 2、dirsearch自带的字典
 
-# 收集记录：
+# 字典收集记录：
 [https://download.csdn.net/download/ljp123123ljp/9145013](https://download.csdn.net/download/ljp123123ljp/9145013)收录605个到“中国人姓名-fuzz.txt”
 
 [3had0w师傅的本地文件包含字典](https://github.com/3had0w/Fuzzing-Dicts/blob/master/LFI-Interesting-Files%EF%BC%88249%EF%BC%89.txt)收录222个到“本地文件包含-Linux-fuzz.txt”、27个到“本地文件包含-Windows-fuzz.txt”
