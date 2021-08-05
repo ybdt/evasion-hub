@@ -1,5 +1,5 @@
 # 0x00 项目介绍
-本项目专注于收集，整理渗透测试、红队攻击中涉及到的字典
+本项目专注于红队攻击中的各种字典
 
 # 0x01 相关优秀项目
 https://github.com/rootphantomer/Blasting_dictionary  
