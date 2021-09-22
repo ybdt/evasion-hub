@@ -1,5 +1,5 @@
 # 0x01 项目介绍
-本项目专注于红队演练中的各类字典
+本项目专注于红队行动中的各类字典
 
 # 0x02 相关优秀项目
 https://github.com/rootphantomer/Blasting_dictionary  
