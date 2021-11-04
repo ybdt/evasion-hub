@@ -1,7 +1,7 @@
 # 0x01 项目介绍
 专注于红队评估中的各类字典
 
-# 0x02 相关优秀项目
+# 0x02 优秀项目
 https://github.com/rootphantomer/Blasting_dictionary  
 https://weakpass.com/  
 https://github.com/3had0w/Fuzzing-Dicts  
