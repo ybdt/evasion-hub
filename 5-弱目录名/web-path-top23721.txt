@@ -1,3 +1,5 @@
+/entry
+/command
 /admin.php
 /xdjtadmin.php
 /sellerAdmin.php
