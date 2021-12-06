@@ -1,3 +1,6 @@
+view_admin
+opac_admin
+map_admin
 zhangwei
 wangwei
 wangfang
