@@ -20,11 +20,11 @@ https://github.com/c0ny1/upload-fuzz-dic-builder
 来源：gh0stkey师傅  
 https://github.com/gh0stkey/Web-Fuzzing-Box  
 https://gh0st.cn/archives/2019-11-11/1  
-### 其他待整理项目
-https://weakpass.com/  
-https://github.com/danielmiessler/SecLists  
-https://github.com/epony4c/Exploit-Dictionary  
+### 06、默认凭证字典
 https://github.com/ihebski/DefaultCreds-cheat-sheet  
-https://github.com/ppbibo/PentesterSpecialDict  
+### 07、强弱字典
 https://github.com/huyuanzhi2/password_brute_dictionary  
-https://github.com/fuzzdb-project/fuzzdb  
+### 08、综合字典
+https://github.com/danielmiessler/SecLists  
+### 09、爆破项目
+https://weakpass.com/  
