@@ -6,7 +6,7 @@
 来源：微信公众号——黑客真酷——收集常用密码的小技巧  
 https://github.com/mstxq17/SeCDictionary/  
 https://nordpass.com/most-common-passwords-list/
-
+### 其他待整理项目
 https://github.com/rootphantomer/Blasting_dictionary  
 https://weakpass.com/  
 https://github.com/3had0w/Fuzzing-Dicts  
