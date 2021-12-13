@@ -7,6 +7,10 @@
 https://github.com/mstxq17/SeCDictionary/  
 https://nordpass.com/most-common-passwords-list/  
 https://pastebin.com/LMuD0LGa  
+### 项目02
+来源：鸭王的项目  
+https://github.com/TheKingOfDuck/fuzzDicts  
+
 ### 其他待整理项目
 https://github.com/rootphantomer/Blasting_dictionary  
 https://weakpass.com/  
