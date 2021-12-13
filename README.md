@@ -16,11 +16,14 @@ https://github.com/3had0w/Fuzzing-Dicts
 ### 04、upload字典
 来源：c0ny1师傅  
 https://github.com/c0ny1/upload-fuzz-dic-builder  
+### 05、综合字典
+来源：gh0stkey师傅  
+https://github.com/gh0stkey/Web-Fuzzing-Box  
+https://gh0st.cn/archives/2019-11-11/1  
 ### 其他待整理项目
 https://weakpass.com/  
 https://github.com/danielmiessler/SecLists  
 https://github.com/epony4c/Exploit-Dictionary  
-https://github.com/gh0stkey/Web-Fuzzing-Box  
 https://github.com/ihebski/DefaultCreds-cheat-sheet  
 https://github.com/ppbibo/PentesterSpecialDict  
 https://github.com/huyuanzhi2/password_brute_dictionary  
