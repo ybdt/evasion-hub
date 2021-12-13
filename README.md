@@ -1,7 +1,12 @@
-# 0x01 项目介绍
-专注于红队评估中的各类字典
+# 0x01 免责声明
+该项目仅供授权下使用或学习使用，禁止使用该项目进行违法操作，否则自行承担相关责任，请各位遵守《中华人民共和国网络安全法》以及相应地方的法律法规！！！
 
-# 0x02 优秀项目
+# 0x02 其他字典项目
+### 项目01
+来源：微信公众号——黑客真酷——收集常用密码的小技巧
+https://github.com/mstxq17/SeCDictionary/
+https://nordpass.com/most-common-passwords-list/
+
 https://github.com/rootphantomer/Blasting_dictionary  
 https://weakpass.com/  
 https://github.com/3had0w/Fuzzing-Dicts  
@@ -14,6 +19,3 @@ https://github.com/ihebski/DefaultCreds-cheat-sheet
 https://github.com/ppbibo/PentesterSpecialDict  
 https://github.com/huyuanzhi2/password_brute_dictionary  
 https://github.com/fuzzdb-project/fuzzdb  
-
-# 0x03 免责声明
-该项目仅供授权下使用或学习使用，禁止使用该项目进行违法操作，请各位遵守《中华人民共和国网络安全法》以及相应地方的法律法规，否则自行承担相关责任！
