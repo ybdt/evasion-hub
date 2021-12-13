@@ -3,8 +3,8 @@
 
 # 0x02 其他字典项目
 ### 项目01
-来源：微信公众号——黑客真酷——收集常用密码的小技巧
-https://github.com/mstxq17/SeCDictionary/
+来源：微信公众号——黑客真酷——收集常用密码的小技巧  
+https://github.com/mstxq17/SeCDictionary/  
 https://nordpass.com/most-common-passwords-list/
 
 https://github.com/rootphantomer/Blasting_dictionary  
