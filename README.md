@@ -10,12 +10,12 @@ https://pastebin.com/LMuD0LGa
 ### 项目02
 来源：鸭王的项目  
 https://github.com/TheKingOfDuck/fuzzDicts  
+### 项目03
+来源：3hadow的字典  
+https://github.com/3had0w/Fuzzing-Dicts  
 
 ### 其他待整理项目
-https://github.com/rootphantomer/Blasting_dictionary  
 https://weakpass.com/  
-https://github.com/3had0w/Fuzzing-Dicts  
-https://github.com/TheKingOfDuck/fuzzDicts  
 https://github.com/danielmiessler/SecLists  
 https://github.com/epony4c/Exploit-Dictionary  
 https://github.com/c0ny1/upload-fuzz-dic-builder  
