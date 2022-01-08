@@ -4,7 +4,7 @@
 自己整理的默认凭证、弱用户名、弱口令、弱Web路径价值不大，故删掉，可直接使用如下项目中的字典，等到收集、整理出一个效果不错的字典再发布出来  
 # 0x02-字典项目汇总
 ### 01-Web及IoT字典
-来源：微信公众号——黑客真酷——收集常用密码的小技巧  
+来源：收集常用密码的小技巧-黑客真酷（微信公众号）  
 https://github.com/mstxq17/SeCDictionary/  
 https://nordpass.com/most-common-passwords-list/  
 https://pastebin.com/LMuD0LGa  
