@@ -23,6 +23,7 @@ https://github.com/gh0stkey/Web-Fuzzing-Box
 https://gh0st.cn/archives/2019-11-11/1  
 ### 06-默认凭证字典
 https://github.com/ihebski/DefaultCreds-cheat-sheet  
+https://forum.ywhack.com/bountytips.php?password  
 ### 07-强弱字典
 https://github.com/huyuanzhi2/password_brute_dictionary  
 ### 08-综合字典
