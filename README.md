@@ -2,8 +2,8 @@
 红队Web打点中，发现口令问题占比不小，遂创建此项目
 
 # 0x02-字典来源
-棱角安全团队整理的默认凭证  https://forum.ywhack.com/bountytips.php?password  
-ihebski整理的默认凭证  https://github.com/ihebski/DefaultCreds-cheat-sheet  
+棱角安全团队整理的默认凭证 https://forum.ywhack.com/bountytips.php?password  
+ihebski整理的默认凭证 https://github.com/ihebski/DefaultCreds-cheat-sheet  
 
 鸭王师傅  https://github.com/TheKingOfDuck/fuzzDicts  
 3hadow师傅  https://github.com/3had0w/Fuzzing-Dicts  
@@ -19,4 +19,4 @@ https://pastebin.com/LMuD0LGa
 
 
 # 0x03-思路说明
-借助python实现一款自动化检测Web账户口令的工具，将“有错误次数限制”、“有验证码”、“有前端加密”的url挑选出来，单独存到一个文件，其余情况自动化测试
+python实现一款自动化检测Web账户口令的工具，将“有错误次数限制”、“有验证码”、“有前端加密”、“post表单不是直接出现在html源码中”这4种情况的url挑选出来，单独存到一个文件，其余情况自动化测试
