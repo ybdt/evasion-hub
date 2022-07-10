@@ -9,6 +9,7 @@ ihebski师傅 -> https://github.com/ihebski/DefaultCreds-cheat-sheet
 ### 通用弱口令
 weakpass项目 -> https://weakpass.com/  
 nordpass团队 -> https://nordpass.com/most-common-passwords-list/  
+
 鸭王师傅 -> https://github.com/TheKingOfDuck/fuzzDicts  
 3hadow师傅 -> https://github.com/3had0w/Fuzzing-Dicts  
 c0ny1师傅 -> https://github.com/c0ny1/upload-fuzz-dic-builder  
