@@ -7,7 +7,8 @@
 ihebski师傅 -> https://github.com/ihebski/DefaultCreds-cheat-sheet  
 
 ### 通用弱口令
-weakpass团队 -> https://weakpass.com/  
+weakpass项目 -> https://weakpass.com/  
+nordpass团队 -> https://nordpass.com/most-common-passwords-list/  
 鸭王师傅 -> https://github.com/TheKingOfDuck/fuzzDicts  
 3hadow师傅 -> https://github.com/3had0w/Fuzzing-Dicts  
 c0ny1师傅 -> https://github.com/c0ny1/upload-fuzz-dic-builder  
@@ -16,5 +17,5 @@ gh0stkey师傅 -> https://gh0st.cn/archives/2019-11-11/1
 huyuanzhi2师傅 -> https://github.com/huyuanzhi2/password_brute_dictionary  
 danielmiessler师傅 -> https://github.com/danielmiessler/SecLists  
 mstxq17师傅 -> https://github.com/mstxq17/SeCDictionary/  
-nordpass团队 -> https://nordpass.com/most-common-passwords-list/  
 匿名师傅 -> https://pastebin.com/LMuD0LGa  
+insightglacier师傅 -> https://github.com/insightglacier/Dictionary-Of-Pentesting  
