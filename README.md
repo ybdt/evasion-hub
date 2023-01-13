@@ -12,7 +12,7 @@ ping www.baidu.com
 返回
 PING www.a.shifen.com (39.156.66.14): 56 data bytes
 ```
-不过执行时会发现这样太慢，所以你又会用到多线程、队列，至此，得到非cdn节点（云waf节点）的ip后，核心代码如下
+核心代码如下
 ```
 # 基于ping判断是否为cdn节点（云waf节点）
 def exclude(q, cdn_domain_list, non_cdn_domain_list, non_cdn_ip_list, non_parse_domain_list):
@@ -89,6 +89,7 @@ def exclude(q, cdn_domain_list, non_cdn_domain_list, non_cdn_ip_list, non_parse_
                     else:
                         cdn_domain_list.append(domain + "__" + ping_return_domain)
 ```
+不过执行时会发现这样太慢，所以你又会用到多线程、队列，至此，得到非cdn节点（云waf节点）的ip
 ### 连续ip
 得到非cdn节点（云waf节点）的ip后，如1.1.1.1，1.1.1.3，1.1.1.5，那往往1.1.1.2，1.1.1.4也属于目标，所以我们要通过一个算法实现获取连续ip，这个算法在几个知识星球发过，这里也发一下
 ```
