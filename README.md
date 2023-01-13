@@ -12,7 +12,83 @@ ping www.baidu.com
 返回
 PING www.a.shifen.com (39.156.66.14): 56 data bytes
 ```
-不过执行时会发现这样太慢，所以你又会用到多线程、队列，至此，得到非cdn节点（云waf节点）的ip后
+不过执行时会发现这样太慢，所以你又会用到多线程、队列，至此，得到非cdn节点（云waf节点）的ip后，核心代码如下
+```
+# 基于ping判断是否为cdn节点（云waf节点）
+def exclude(q, cdn_domain_list, non_cdn_domain_list, non_cdn_ip_list, non_parse_domain_list):
+    while True:
+        if q.empty():
+            return
+        else:
+            domain = q.get()
+            '''
+            # Windows
+            p = subprocess.Popen(["ping.exe", "-n", "1", "-w", "1000", domain], shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            ping_str = p.stdout.read()
+            if ping_str.startswith(b"Ping request could not find host"):
+                non_parse_domain_list.append(domain + "__" + "ping请求找不到主机")
+                continue
+            else:
+                ping_list = ping_str.decode("GBK").split("\r\n")
+                ping_return_domain = ping_list[1].split(" ")[1]
+                ping_return_ip = ping_list[2].split(" ")[2].strip(":")
+                if ping_return_domain == domain:
+                    non_cdn_domain_list.append(domain + "__" + ping_return_ip)
+                    non_cdn_ip_list.append(ping_return_ip)
+                else:
+                    cdn_domain_list.append(domain + "__" + ping_return_domain)
+            
+            # Mac
+            p = subprocess.Popen(["/sbin/ping", "-c", "1", "-W", "1000", domain], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            ping_str = p.stdout.read()
+            if ping_str == b"":
+                non_parse_domain_list.append(domain + "__" + "ping请求找不到主机")
+                continue
+            else:
+                ping_list = ping_str.decode("UTF-8").split("\n")
+                # print(ping_list[0])  # debug code
+                ping_return_domain = ping_list[0].split(" ")[1]
+                ping_return_ip = ping_list[0].split(" ")[2].strip(":()")
+                if ping_return_domain == domain:
+                    non_cdn_domain_list.append(domain + "__" + ping_return_ip)
+                    non_cdn_ip_list.append(ping_return_ip)
+                else:
+                    cdn_domain_list.append(domain + "__" + ping_return_domain)
+            '''
+            p = subprocess.Popen(["ping.exe", "-n", "1", "-w", "1000", domain], shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            ping_str = p.stdout.read()
+            # 后面的16进制字符串为   "Ping 请求找不到主机"
+            if ping_str.startswith(b"Ping request could not find host") or ping_str.startswith(b"Ping \xc7\xeb\xc7\xf3\xd5\xd2\xb2\xbb\xb5\xbd\xd6\xf7\xbb\xfa"):
+                non_parse_domain_list.append(domain + "__" + "ping请求找不到主机")
+                continue
+            else:
+                ping_list = ping_str.decode("GBK").split("\r\n")
+                # 此处由于是对ping返回进行分片处理，经常容易报错，故添加异常处理，防止程序中断
+                '''
+                不同输出格式，对应不同分片处理
+
+                忘记是什么输出格式，对应下列分片处理
+                ping_return_domain = ping_list[1].split(" ")[1]
+                ping_return_ip = ping_list[4].split(" ")[3].strip(":")
+
+                ['', '正在 Ping www.anicert.cn [39.96.183.255] 具有 32 字节的数据:', '请求超时。', '', '39.96.183.255 的 Ping 统计信息:',
+                ['', '正在 Ping appcube.anicert.cn [111.200.45.121] 具有 32 字节的数据:', '来自 111.200.45.121 的回复: 字节=32 时间=5ms TTL=128', '', '111.200.45.121 的 Ping 统计信息:',
+                ['', '正在 Ping imap-v6.exmail.qq.com [157.148.45.129] 具有 32 字节的数据:', '来自 157.148.45.129 的回复: 字节=32 时间=37ms TTL=128', '', '157.148.45.129 的 Ping 统计信息:',
+                ping_return_domain = ping_list[1].split(" ")[2]
+                ping_return_ip = ping_list[1].split(" ")[3].strip("[]")
+                '''
+                try:
+                    ping_return_domain = ping_list[1].split(" ")[2]
+                    ping_return_ip = ping_list[1].split(" ")[3].strip("[]")
+                except:
+                    print("格式异常的ping_list：" + str(ping_list))
+                else:
+                    if ping_return_domain == domain:
+                        non_cdn_domain_list.append(domain + "__" + ping_return_ip)
+                        non_cdn_ip_list.append(ping_return_ip)
+                    else:
+                        cdn_domain_list.append(domain + "__" + ping_return_domain)
+```
 ### 连续ip
 得到非cdn节点（云waf节点）的ip后，如1.1.1.1，1.1.1.3，1.1.1.5，那往往1.1.1.2，1.1.1.4也属于目标，所以我们要通过一个算法实现获取连续ip，这个算法在几个知识星球发过，这里也发一下
 ```
