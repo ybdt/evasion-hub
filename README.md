@@ -1,7 +1,7 @@
 整体思路如下：  
 ![image](./assets/自动化资产收集.png)
 
-## 如何实现自己的自动化资产收集工具
+# 资产收集
 基本思路：目标单位根域名及100%控股子公司根域名 -> 子域名 -> ip全端口 -> 连续ip -> web爬虫及web路径
 
 ### 根域名
@@ -168,3 +168,11 @@ def ipSerial(ip_list):
 最后，对每个url进行网站爬取及web路径爆破，网站爬取推荐[crawlergo](https://github.com/Qianlitp/crawlergo)，web路径爆破推荐[dirsearch](https://github.com/maurosoria/dirsearch)
 
 ### 通过python，将上述过程实现自动化，就是一个自动化资产收集工具
+
+# 漏洞检测
+资产收集完成后，漏洞检测环节，推荐Fscan先对弱口令跑一波（尽管概率不大，但还是做一遍，万一有弱口令呢），然后AWVS、Xray、Nuclei对收集到的URL跑一波，最后可以用Goby对收集到的域名采用全端口跑一波
+
+AWVS可以采用基于docker的破解版，Xray的话提交几个POC换取高级版（漏洞更全一些），Goby的话提交几个POC换取红队版（漏洞更全一些）  
+![image](./README.image/awvs.png)  
+![image](./README.image/xray.png)  
+![image](./README.image/goby.png)  
