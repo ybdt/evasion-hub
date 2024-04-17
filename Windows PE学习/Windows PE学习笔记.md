@@ -1,4 +1,5 @@
 # 学习过程
+如下是我简单总结的每块知识，具体可见参考链接中的文章
 
 ## 进程虚拟地址空间
 
@@ -70,4 +71,5 @@ int main()
 ![image](./pic/01.jpg)  
 
 # 参考链接
-【PE32格式学习之手动创建一个简单的Windows程序】https://xz.aliyun.com/t/14105
+【PE32格式学习之手动创建一个简单的Windows程序】https://xz.aliyun.com/t/14105  
+https://blog.csdn.net/jason_cuijiahui/article/details/79010257  
