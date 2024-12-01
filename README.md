@@ -1,6 +1,3 @@
-# 前言
-仓库从最开始的免杀，延伸到逆向、破解
-
 # 免杀对抗
 ## 思路总结
 ### 01 睡眠
@@ -33,4 +30,10 @@ else {
 ```
 ```
 检查当前所在系统的进程数是否小于40（用来反Defender沙箱）
+```
+# Rookit
+```
+https://github.com/m0nad/Diamorphine
+
+https://github.com/bytecode77/r77-rootkit
 ```
