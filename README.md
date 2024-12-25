@@ -37,3 +37,13 @@ https://github.com/m0nad/Diamorphine
 
 https://github.com/bytecode77/r77-rootkit
 ```
+
+# 白加黑
+```
+【工具推荐】 - ZeroEye3.3免杀辅助利器，自动化找白加黑，支持生成模板。
+https://mp.weixin.qq.com/s/D0x4XSr37cMrv7Y4ScRqTg
+https://github.com/ImCoriander/ZeroEye
+
+【工具推荐】 - 比Everything弱一点的自动化白加黑工具（灰梭子）
+https://mp.weixin.qq.com/s?__biz=MzkyNDUzNjk4MQ==&mid=2247483925&idx=1&sn=7424113417378915f17155260bdeef67&chksm=c1d51beff6a292f9cbb906cbaa2a55925d7ac1faeb9860b2d340b95cd33a2a0478d494daf711&scene=21#wechat_redirect
+```
