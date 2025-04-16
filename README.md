@@ -18,12 +18,28 @@ https://p.ost2.fyi/
 ```
 01、Loader执行时需要密码【反沙箱对抗】
 02、适当睡眠【动态免杀对抗】
-03、垃圾代码【静态免杀对抗，类似于花指令】
+03、垃圾代码【静态免杀对抗，类似于花指令、LLVM】
 ```
 
-# 高级
+# 钓鱼马免杀
+## 0x01 LNK钓鱼马
+```
+https://www.cybereason.com/blog/threat-analysis-taking-shortcuts-using-lnk-files-for-initial-infection-and-persistence
+【LNK文件深度解析-钓鱼攻击利用姿势】https://mp.weixin.qq.com/s/-sGRCSoOxP2a9aR0vNoZVw
+```
+
+
+# EXE免杀
+## 0x01 UAC Bypass
+```
+# 面向个人PC，适用于社工
+https://github.com/hackerhouse-opensource/iscsicpl_bypassUAC
+```
+
 ## 0x01 白加黑
 ```
+https://hijacklibs.net/
+
 【工具推荐】 - ZeroEye3.3免杀辅助利器，自动化找白加黑，支持生成模板。
 https://mp.weixin.qq.com/s/D0x4XSr37cMrv7Y4ScRqTg
 https://github.com/ImCoriander/ZeroEye
@@ -51,7 +67,12 @@ https://practicalsecurityanalytics.com/blog/red-team/
 https://mohamed-fakroud.gitbook.io/red-teamings-dojo/abusing-idispatch-for-trapped-com-object-access-and-injecting-into-ppl-processes
 ```
 
-## 0x05 奇技淫巧
+## 0x05 LLVM
+```
+https://github.com/obfuscator-llvm/obfuscator
+```
+
+## 0x06 奇技淫巧
 ```
 https://cloudbrothers.info/en/edr-silencers-exploring-methods-block-edr-communication-part-1/
 
@@ -63,9 +84,16 @@ https://cloudbrothers.info/en/edr-silencers-exploring-methods-block-edr-communic
 硬件断点
 ```
 
-## 0x06 Rootit
+## 0x06 Kill AV/EDR
 ```
+https://www.loldrivers.io/
+
 https://github.com/m0nad/Diamorphine
 https://github.com/bytecode77/r77-rootkit
 https://github.com/eversinc33/Banshee
+【白驱动 Kill AV/EDR（上）】https://myzxcg.com/2023/09/白驱动-Kill-AV/EDR上/
+【BYOVD ATTACK 学习】https://xz.aliyun.com/news/12373
+https://www.binarydefense.com/resources/blog/threadsleeper-suspending-threads-via-gmer64-driver/
+https://www.sangfor.com/farsight-labs-threat-intelligence/cybersecurity/what-is-byovd-attacks-2023
+https://github.com/MaorSabag/TrueSightKiller
 ```
