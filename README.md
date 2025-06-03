@@ -1,42 +1,34 @@
-# 基础
-## EDR原理
+# 0x01 AV/EDR原理
 ```
 https://blog.deeb.ch/posts/how-edr-works/
 https://www.edr-telemetry.com/
 ```
 
-## WinDBG使用
+# 0x02 WinDBG使用
 ```
 https://p.ost2.fyi/
 ```
 
-## C、C++、汇编
-```
-```
-
-## 免杀技巧
+# 0x03 免杀技巧
 ```
 01、Loader执行时需要密码【反沙箱对抗】
 02、适当睡眠【动态免杀对抗】
 03、垃圾代码【静态免杀对抗，类似于花指令、LLVM】
 ```
 
-# 钓鱼马免杀
-## 0x01 LNK钓鱼马
+# 0x04 LNK钓鱼马免杀
 ```
 https://www.cybereason.com/blog/threat-analysis-taking-shortcuts-using-lnk-files-for-initial-infection-and-persistence
 【LNK文件深度解析-钓鱼攻击利用姿势】https://mp.weixin.qq.com/s/-sGRCSoOxP2a9aR0vNoZVw
 ```
 
-
-# EXE免杀
-## 0x01 UAC Bypass
+# 0x05 UAC Bypass
 ```
 # 面向个人PC，适用于社工
 https://github.com/hackerhouse-opensource/iscsicpl_bypassUAC
 ```
 
-## 0x01 白加黑
+# 0x06 白加黑
 ```
 https://hijacklibs.net/
 
@@ -48,7 +40,7 @@ https://github.com/ImCoriander/ZeroEye
 https://mp.weixin.qq.com/s?__biz=MzkyNDUzNjk4MQ==&mid=2247483925&idx=1&sn=7424113417378915f17155260bdeef67&chksm=c1d51beff6a292f9cbb906cbaa2a55925d7ac1faeb9860b2d340b95cd33a2a0478d494daf711&scene=21#wechat_redirect
 ```
 
-## 0x03 Shellcode Loader
+# 0x07 Shellcode Loader
 ```
 https://ericesquivel.github.io/posts/bypass
 https://github.com/thomasxm/BOAZ_beta
@@ -57,22 +49,23 @@ https://github.com/0xHossam/HuffLoader
 https://github.com/UmaRex01/Hit-And-Run
 ```
 
-## 0x02 Powershell and CSharp
+# 0x08 AMSI
 ```
 https://practicalsecurityanalytics.com/blog/red-team/
+https://github.com/EvilBytecode/Ebyte-AMSI-ProxyInjector
 ```
 
-## 0x04 COM技术
+# 0x09 COM技术
 ```
 https://mohamed-fakroud.gitbook.io/red-teamings-dojo/abusing-idispatch-for-trapped-com-object-access-and-injecting-into-ppl-processes
 ```
 
-## 0x05 LLVM
+# 0x10 LLVM
 ```
 https://github.com/obfuscator-llvm/obfuscator
 ```
 
-## 0x06 奇技淫巧
+# 0x11 奇技淫巧
 ```
 https://cloudbrothers.info/en/edr-silencers-exploring-methods-block-edr-communication-part-1/
 
@@ -84,7 +77,7 @@ https://cloudbrothers.info/en/edr-silencers-exploring-methods-block-edr-communic
 硬件断点
 ```
 
-## 0x06 Kill AV/EDR
+# 0x12 Kill AV/EDR
 ```
 https://www.loldrivers.io/
 
@@ -96,4 +89,19 @@ https://github.com/eversinc33/Banshee
 https://www.binarydefense.com/resources/blog/threadsleeper-suspending-threads-via-gmer64-driver/
 https://www.sangfor.com/farsight-labs-threat-intelligence/cybersecurity/what-is-byovd-attacks-2023
 https://github.com/MaorSabag/TrueSightKiller
+```
+
+# 0x13 AV/EDR模拟
+```
+https://github.com/BlackSnufkin/LitterBox
+```
+
+# 0x14 APT组织
+```
+揭露天鹅向量（Swan Vector）APT组织：针对中国台湾和日本的多阶段DLL植入攻击
+https://mp.weixin.qq.com/s/ZUR7-2OdZcQiq8A8qiptwg
+使用的技术：lnk钓鱼、rundll32、api hash、dll劫持、syscall
+
+https://mp.weixin.qq.com/s/S7Iq5DfO7xNX3GPJzwedPw
+Operation(润)RUN：“离岸爱国者”的赛博狂欢
 ```
