@@ -1,3 +1,6 @@
+#define _CRT_NONSTDC_NO_DEPRECATE
+#define _CRT_SECURE_NO_WARNINGS
+
 #include <windows.h>
 #include <stdio.h>
 #include <string.h>
@@ -146,7 +149,7 @@ void* CustomGetProcAddress(void* pDosHdr, const char* func_name) {
     DWORD e_lfanew_value = 0;
     SIZE_T aux = 0;
     NtReadVirtualMemory(hProcess, (BYTE*)pDosHdr + 0x3C, &e_lfanew_value, sizeof(e_lfanew_value), &aux);
-    
+
     if (e_lfanew_value == 0) {
         return NULL;
     }
@@ -192,11 +195,11 @@ void* CustomGetProcAddress(void* pDosHdr, const char* func_name) {
 void* get_ntdll_base_address(const char* input) {
     char full_address_str[32];
     int len = strlen(input);
-    char prefix[32] = {0};
+    char prefix[32] = { 0 };
     strncpy(prefix, input, len - 6);
     prefix[len - 6] = '\0';
 
-    char last6[7] = {0};
+    char last6[7] = { 0 };
     strncpy(last6, input + len - 6, 6);
 
     unsigned int last6_val = (unsigned int)strtoul(last6, NULL, 16);
@@ -247,12 +250,12 @@ int main(int argc, char* argv[]) {
     }
 
     // uintptr_t ntdll_address = (uintptr_t)strtoull(argv[1], NULL, 16);
-    uintptr_t func_address =  (uintptr_t)strtoull(argv[1], NULL, 16);
+    uintptr_t func_address = (uintptr_t)strtoull(argv[1], NULL, 16);
 
     NtReadVirtualMemory = (NtReadVirtualMemoryFn)func_address;
-    HMODULE hNtdll = (HMODULE) get_ntdll_base_address(argv[1]);
+    HMODULE hNtdll = (HMODULE)get_ntdll_base_address(argv[1]);
     printf("[+] Ntdll.dll Address:\t0x%p\n", hNtdll);
-    
+
     if (stricmp(argv[2], "ntdll.dll") == 0) {
         const char* func_name = argv[3];
 
@@ -263,7 +266,7 @@ int main(int argc, char* argv[]) {
     else {
         const char* dll_name = argv[2];
         const char* func_name = argv[3];
-        
+
         NtQueryInformationProcess = (NtQueryInformationProcessFn)CustomGetProcAddress(hNtdll, "NtQueryInformationProcess");
         RtlUnicodeStringToAnsiString = (RtlUnicodeStringToAnsiStringFn)CustomGetProcAddress(hNtdll, "RtlUnicodeStringToAnsiString");
         HANDLE currentProcess = (HANDLE)(-1);
