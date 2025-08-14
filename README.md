@@ -12,6 +12,12 @@
 
 # 杂七杂八
 ```
+静态免杀 之 代码混淆
+    Code Virtual
+    Themida
+    VMProtect
+
+
 0x01 国家级APT攻击
     https://mp.weixin.qq.com/s/ZUR7-2OdZcQiq8A8qiptwg【揭露天鹅向量（Swan Vector）APT组织：针对中国台湾和日本的多阶段DLL植入攻击，使用的技术：lnk钓鱼、rundll32、api hash、dll劫持、syscall】
     https://mp.weixin.qq.com/s/S7Iq5DfO7xNX3GPJzwedPw
@@ -22,8 +28,9 @@
     https://github.com/dobin/avred
 
 0x03 UAC Bypass
-    https://github.com/hackerhouse-opensource/iscsicpl_bypassUAC
-    UACME项目中的RAiLaunchAdminProcess
+    https://github.com/hackerhouse-opensource/iscsicpl_bypassUAC【UACME项目中的RAiLaunchAdminProcess】
+    https://www.elastic.co/security-labs/exploring-windows-uac-bypasses-techniques-and-detection-strategies
+    https://github.com/zer0antisec/UACBypass/tree/main
 
 0x04 Linux下二进制混淆
     https://github.com/hackerschoice/bincrypter
@@ -62,6 +69,8 @@
     https://ericesquivel.github.io/posts/bypass
     https://www.darkrelay.com/post/stealth-syscall-execution-bypass-edr-detection
     https://medium.com/@andreabocchetti88/living-off-the-com-type-coercion-abuse-108f988bb00a
+    https://github.com/TheWover/donut
+    https://github.com/vari-sh/RedTeamGrimoire
 
 0x10 COM
     https://mohamed-fakroud.gitbook.io/red-teamings-dojo/windows-internals/playing-around-com-objects-part-1
@@ -166,4 +175,43 @@
 		4.3.4 https://github.com/TygoL/kdmapper-mdl
 		4.3.5 https://github.com/zorftw/kdmapper-rs
 		4.3.6 https://github.com/rmccrystal/kdmapper-rs
+
+0x21 2024.11.11推荐
+    https://github.com/NUL0x4C/AtomLdr   此项目主要是利用indirect syscalls gadgets和其他技术进行behavior evasion
+    https://github.com/kyleavery/AceLdr   此项目主要是memory scanner evasion
+    再结合LLVM混淆进行静态免杀 + 沙箱检测 + 白利用 + 调用栈欺骗，应该会是一个不错的Loader
+
+内存躲避
+    （对内存中的shellcode频繁变动访问权限）https://github.com/mgeeky/ShellcodeFluctuation
+
+# 进程注入
+    # APC注入
+        https://repnz.github.io/posts/apc/user-apc/
+        https://repnz.github.io/posts/apc/kernel-user-apc-api/
+        https://repnz.github.io/posts/apc/wow64-user-apc/
+        https://github.com/repnz/apc-research
+    # 异常
+        https://bruteratel.com/research/2024/10/20/Exception-Junction/
+        https://github.com/passthehashbrowns/VectoredExceptionHandling
+    # 用户层无敌方案
+        https://www.malwaretech.com/2024/02/bypassing-edrs-with-edr-preload.html
+        https://www.outflank.nl/blog/2024/10/15/introducing-early-cascade-injection-from-windows-process-creation-to-stealthy-injection/
+        https://github.com/MalwareTech/EDR-Preloader
+    # 硬件断点
+        https://github.com/rad9800/hwbp4mw
+
+混杂
+    https://swisskyrepo.github.io/InternalAllTheThings/
+    https://github.com/oldboy21/SWAPPALA
+    https://oldboy21.github.io/posts/2024/09/timer-callbacks-spoofing-to-improve-your-sleap-and-swappala-untold/
+    https://github.com/thefLink/Hunt-Sleeping-Beacons
+
+C/C++开发
+    https://github.com/serge1/COFFI
+    https://github.com/vxunderground/VX-API/tree/main/VX-API
+    https://github.com/0cch/moderncpp_public
+    http://undocumented.ntinternals.net/
+    https://www.ired.team/offensive-security/defense-evasion/how-to-unhook-a-dll-using-c++
+
+https://www.incendium.rocks/posts/Automating-MS-RPC-Vulnerability-Research/
 ```
