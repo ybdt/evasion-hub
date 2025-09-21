@@ -12,10 +12,16 @@
 
 # 杂七杂八
 ```
+Windows内核研究
+https://www.vergiliusproject.com/about
+https://ntdiff.github.io/
+
+
 静态免杀 之 代码混淆
     Code Virtual
     Themida
     VMProtect
+    https://github.com/KomiMoe/Arkari
 
 
 0x01 国家级APT攻击
