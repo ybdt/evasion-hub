@@ -12,7 +12,20 @@
 
 # 杂七杂八
 ```
-Windows内核研究
+基于AI实现免杀对抗
+https://mp.weixin.qq.com/s/VVmDDPcChtWF_yA-zv47zQ?click_id=1
+https://www.outflank.nl/blog/2025/08/07/training-specialist-models/
+
+
+# 未公开的NTAPI
+http://undocumented.ntinternals.net/
+
+
+# 系统调用表
+https://j00ru.vexillium.org/syscalls/nt/64/
+
+
+# Windows内核研究
 https://www.vergiliusproject.com/about
 https://ntdiff.github.io/
 
