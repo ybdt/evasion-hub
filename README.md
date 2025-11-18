@@ -10,31 +10,68 @@
     https://github.com/Teach2Breach/stargate/blob/main/blog.md
 ```
 
-# 杂七杂八
+# AMSI绕过
 ```
-基于AI实现免杀对抗
+# 待学习
+https://github.com/EvilBytecode/Ebyte-AMSI-ProxyInjector
+https://www.r-tec.net/r-tec-blog-bypass-amsi-in-2025.html
+```
+
+# DLL劫持
+```
+# 待学习
+https://hijacklibs.net/
+https://mp.weixin.qq.com/s/D0x4XSr37cMrv7Y4ScRqTg
+https://github.com/ImCoriander/ZeroEye
+https://mp.weixin.qq.com/s/QFHGYBP8iWGje0nGIYGLhg
+https://www.r-tec.net/r-tec-blog-dll-sideloading.html
+```
+
+# UAC Bypass
+
+# Payload执行
+
+# BOF
+
+# 进程注入
+
+# BYOVD
+
+# 代码混淆
+```
+# 商业
+Themida   https://www.oreans.com/Themida.php
+VMProtect   https://vmpsoft.com/
+
+# 开源
+https://github.com/KomiMoe/Arkari
+https://github.com/obfuscator-llvm/obfuscator
+```
+
+# 基于LLM实现免杀
+```
 https://mp.weixin.qq.com/s/VVmDDPcChtWF_yA-zv47zQ?click_id=1
 https://www.outflank.nl/blog/2025/08/07/training-specialist-models/
+```
 
+# Linux/MacOS下免杀对抗
+```
+# 二进制/Shell脚本混淆器
+https://github.com/hackerschoice/bincrypter
+```
 
-# 未公开的NTAPI
-http://undocumented.ntinternals.net/
-
-
-# 系统调用表
-https://j00ru.vexillium.org/syscalls/nt/64/
-
-
-# Windows内核研究
-https://www.vergiliusproject.com/about
-https://ntdiff.github.io/
-
-
-静态免杀 之 代码混淆
-    Code Virtual
-    Themida
-    VMProtect
-    https://github.com/KomiMoe/Arkari
+# 杂七杂八
+```
+Windows API开发
+Windows Native API开发
+Windows 16位汇编
+Windows 32位汇编
+Windows COM
+Windows RPC
+Windows 内核
+IDA Pro 使用
+x64dbg 使用
+WinDBG 使用
 
 
 0x01 国家级APT攻击
@@ -51,17 +88,19 @@ https://ntdiff.github.io/
     https://www.elastic.co/security-labs/exploring-windows-uac-bypasses-techniques-and-detection-strategies
     https://github.com/zer0antisec/UACBypass/tree/main
 
-0x04 Linux下二进制混淆
-    https://github.com/hackerschoice/bincrypter
-
 0x05 阻断EDR Agent和Server端交流
     https://cloudbrothers.info/en/edr-silencers-exploring-methods-block-edr-communication-part-1/
 
+
 0x06 WinDBG使用
     https://p.ost2.fyi/
+0x13 逆向工程
+    https://github.com/DebugPrivilege/InsightEngineering
+    0x16 内核调试
+    https://www.youtube.com/watch?v=K5abwBNb76k&list=PLUFkSN0XLZ-ka9dfeHWmhqDV-qIns-9uR
+    https://www.youtube.com/watch?v=_5c8ErwyqiU&list=PLUFkSN0XLZ-kOQnYJwx3x9wPMDjlv2iSg
+    https://www.youtube.com/watch?v=SSerGWQW70c&list=PLUFkSN0XLZ-nl4HEX4_LWG9H_d9vJKkYL
 
-0x07 隐蔽的AMSI绕过
-    https://github.com/EvilBytecode/Ebyte-AMSI-ProxyInjector【通过代理的方式进行隐蔽的AMSI绕过】
 
 0x08 AV/EDR识别和研究
     https://av.aabyss.cn/
@@ -106,19 +145,10 @@ https://ntdiff.github.io/
     https://research.checkpoint.com/2025/waiting-thread-hijacking/
     https://github.com/Friends-Security/RedirectThread
 
-0x13 逆向工程
-    https://github.com/DebugPrivilege/InsightEngineering
-
-0x14 AMSI绕过
-    https://github.com/EvilBytecode/Ebyte-AMSI-ProxyInjector
 
 0x15 内存扫描原理
     https://www.blackhillsinfosec.com/avoiding-memory-scanners/
 
-0x16 内核调试
-    https://www.youtube.com/watch?v=K5abwBNb76k&list=PLUFkSN0XLZ-ka9dfeHWmhqDV-qIns-9uR
-    https://www.youtube.com/watch?v=_5c8ErwyqiU&list=PLUFkSN0XLZ-kOQnYJwx3x9wPMDjlv2iSg
-    https://www.youtube.com/watch?v=SSerGWQW70c&list=PLUFkSN0XLZ-nl4HEX4_LWG9H_d9vJKkYL
 
 0x17 BOF
     https://github.com/NetSPI/BOF-PE
@@ -131,20 +161,9 @@ https://ntdiff.github.io/
     https://blog.quarkslab.com/proxyblobing-into-your-network.html
     https://github.com/serge1/COFFI
 
-0x17 LLVM
-    https://github.com/obfuscator-llvm/obfuscator
-
 0x18 RDI/sRDI
     https://github.com/thomasxm/BOAZ_beta
     https://blog.malicious.group/writing-your-own-rdi-srdi-loader-using-c-and-asm/
-
-0x19 白加黑
-    https://hijacklibs.net/
-    【工具推荐】 - ZeroEye3.3免杀辅助利器，自动化找白加黑，支持生成模板。
-    https://mp.weixin.qq.com/s/D0x4XSr37cMrv7Y4ScRqTg
-    https://github.com/ImCoriander/ZeroEye
-    【工具推荐】 - 比Everything弱一点的自动化白加黑工具（灰梭子）
-    https://mp.weixin.qq.com/s?__biz=MzkyNDUzNjk4MQ==&mid=2247483925&idx=1&sn=7424113417378915f17155260bdeef67&chksm=c1d51beff6a292f9cbb906cbaa2a55925d7ac1faeb9860b2d340b95cd33a2a0478d494daf711&scene=21#wechat_redirect
 
 0x20 AV/EDR致盲
     https://www.loldrivers.io/
@@ -220,16 +239,13 @@ https://ntdiff.github.io/
         https://github.com/rad9800/hwbp4mw
 
 混杂
-    https://swisskyrepo.github.io/InternalAllTheThings/
     https://github.com/oldboy21/SWAPPALA
     https://oldboy21.github.io/posts/2024/09/timer-callbacks-spoofing-to-improve-your-sleap-and-swappala-untold/
-    https://github.com/thefLink/Hunt-Sleeping-Beacons
 
 C/C++开发
     https://github.com/serge1/COFFI
     https://github.com/vxunderground/VX-API/tree/main/VX-API
     https://github.com/0cch/moderncpp_public
-    http://undocumented.ntinternals.net/
     https://www.ired.team/offensive-security/defense-evasion/how-to-unhook-a-dll-using-c++
 
 https://www.incendium.rocks/posts/Automating-MS-RPC-Vulnerability-Research/
