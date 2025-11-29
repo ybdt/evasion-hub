@@ -249,4 +249,15 @@ C/C++开发
     https://www.ired.team/offensive-security/defense-evasion/how-to-unhook-a-dll-using-c++
 
 https://www.incendium.rocks/posts/Automating-MS-RPC-Vulnerability-Research/
+
+
+
+# 想学习的新技术
+    1. 无需驱动程序，实现AV/EDR致盲
+    https://github.com/TwoSevenOneT/EDR-Freeze
+
+    2. 利用进程克隆实现EDR规避
+    https://www.deepinstinct.com/blog/dirty-vanity-a-new-approach-to-code-injection-edr-bypass
+    https://mp.weixin.qq.com/s/fZTG1csMRImSsO6nilPEHg
+
 ```
