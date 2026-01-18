@@ -1,0 +1,4 @@
+LIBRARY ComActionCpp
+EXPORTS
+    DllCanUnloadNow   PRIVATE
+    DllGetClassObject PRIVATE
