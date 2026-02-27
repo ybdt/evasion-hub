@@ -9,18 +9,16 @@ https://www.r-tec.net/r-tec-blog-dll-sideloading.html
 
 # 02-Function-Address-Locate
 ```
-0x01 通过GetProcAddress动态获取函数地址
-GetModuleHandle + GetProcAddress
+0x01 GetModuleHandle + GetProcAddress动态获取函数地址
 
 0x02 遍历EAT动态获取函数地址
 https://github.com/LloydLabs/Windows-API-Hashing/
-还是用到了LoadLibrary
 
 0x03 通过NtReadVirtualMemory动态获取函数地址
 
 0x04 遍历PEB动态获取函数地址
 
-0x05 遍历内存特征动态获取函数地址
+0x05 遍历内存动态获取函数地址
 https://github.com/Teach2Breach/stargate/blob/main/blog.md
 
 0x06 
