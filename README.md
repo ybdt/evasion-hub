@@ -9,18 +9,18 @@ https://www.r-tec.net/r-tec-blog-dll-sideloading.html
 
 # 02-Function-Address-Locate
 ```
-# 0x01 LoadLibrary动态获取函数地址
-用到了GetModuleHandle、LoadLibrary、GetProcAddress
+# 0x01 通过GetProcAddress动态获取函数地址
+GetModuleHandle + GetProcAddress
 
 # 0x02 遍历EAT动态获取函数地址
 https://github.com/LloydLabs/Windows-API-Hashing/
 还是用到了LoadLibrary
 
-# 0x03 遍历PEB动态获取函数地址
+# 0x03 通过NtReadVirtualMemory动态获取函数地址
 
-# 0x04 利用NtReadVirtualMemory实现IAT中规避高危API
+# 0x04 遍历PEB动态获取函数地址
 
-# 0x05 通过内存中特征匹配
+# 0x05 遍历内存特征动态获取函数地址
 https://github.com/Teach2Breach/stargate/blob/main/blog.md
 
 # 0x06 
@@ -41,7 +41,13 @@ https://github.com/BlackSnufkin/LitterBox【一个很好的沙箱环境】
 https://github.com/UmaRex01/HookSentry
 ```
 
-# 04-Allocate-Write-Execute
+# 04-AMSI-and-ETW-Bypass
+```
+https://github.com/EvilBytecode/Ebyte-AMSI-ProxyInjector
+https://www.r-tec.net/r-tec-blog-bypass-amsi-in-2025.html
+```
+
+# 05-Allocate-Write-Execute
 ```
 # RDI/sRDI
 https://github.com/thomasxm/BOAZ_beta
@@ -50,19 +56,11 @@ https://blog.malicious.group/writing-your-own-rdi-srdi-loader-using-c-and-asm/
 https://research.checkpoint.com/2025/waiting-thread-hijacking/
 https://github.com/Friends-Security/RedirectThread
 
-2024.11.11推荐
 https://github.com/NUL0x4C/AtomLdr   此项目主要是利用indirect syscalls gadgets和其他技术进行behavior evasion
 https://github.com/kyleavery/AceLdr   此项目主要是memory scanner evasion
 
 https://github.com/oldboy21/SWAPPALA
 https://oldboy21.github.io/posts/2024/09/timer-callbacks-spoofing-to-improve-your-sleap-and-swappala-untold/
-```
-
-# 05-AMSI-and-ETW-Bypass
-```
-# 待学习
-https://github.com/EvilBytecode/Ebyte-AMSI-ProxyInjector
-https://www.r-tec.net/r-tec-blog-bypass-amsi-in-2025.html
 ```
 
 # 06-Remote-Inject
