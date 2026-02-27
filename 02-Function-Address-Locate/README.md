@@ -4,6 +4,6 @@
 0x02 遍历EAT动态获取函数地址  
 代码仓库：动态获取函数地址--遍历EAT  
 
-0x03 遍历EAT动态获取函数地址  
+0x03 通过NtReadVirtualMemory动态获取函数地址  
 文章地址：https://bbs.kanxue.com/thread-287815.htm  
 代码仓库：动态获取函数地址--通过NtReadVirtualMemory  
