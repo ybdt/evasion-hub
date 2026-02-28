@@ -1,4 +1,4 @@
-# 说明
+# Attention
 ```
 当前项目子目录中的代码均为测试过可成功编译且功能正常
 
@@ -7,33 +7,27 @@ The code in the current project subdirectory has all been tested and found to be
 
 # 01-DLL-Hijacking
 ```
-https://hijacklibs.net/
-https://mp.weixin.qq.com/s/D0x4XSr37cMrv7Y4ScRqTg
-https://github.com/ImCoriander/ZeroEye
-https://mp.weixin.qq.com/s/QFHGYBP8iWGje0nGIYGLhg
+# has read
+【HijackLibs】https://hijacklibs.net/
+【DLL Sideloading for Initial Access – Red Team Operator's Guide】https://print3m.github.io/blog/dll-sideloading-for-initial-access
+
+# to read
 https://www.r-tec.net/r-tec-blog-dll-sideloading.html
 ```
 
 # 02-Function-Address-Locate
 ```
-0x01 GetModuleHandle + GetProcAddress动态获取函数地址
-
-0x02 遍历EAT动态获取函数地址
+# has read
 https://github.com/LloydLabs/Windows-API-Hashing/
 
-0x03 通过NtReadVirtualMemory动态获取函数地址
-
-0x04 遍历PEB动态获取函数地址
-
-0x05 遍历内存动态获取函数地址
+# to read
 https://github.com/Teach2Breach/stargate/blob/main/blog.md
-
-0x06 
 https://mp.weixin.qq.com/s/O4LCnC_DjzfvnLvgXm1bFQ
 ```
 
 # 03-Sandbox-Evasion
 ```
+# to read
 https://av.aabyss.cn/
 https://tasklist.pdsec.top/
 http://bypass.tidesec.com/bycms
@@ -48,61 +42,59 @@ https://github.com/UmaRex01/HookSentry
 
 # 04-AMSI-and-ETW-Bypass
 ```
+# to read
 https://github.com/EvilBytecode/Ebyte-AMSI-ProxyInjector
 https://www.r-tec.net/r-tec-blog-bypass-amsi-in-2025.html
 ```
 
 # 05-Allocate-Write-Execute
 ```
-# RDI/sRDI
+# has read
+【Thread Name-Calling – using Thread Name for offense】https://research.checkpoint.com/2024/thread-name-calling-using-thread-name-for-offense/
+
+# to read
+https://research.checkpoint.com/2025/waiting-thread-hijacking/
 https://github.com/thomasxm/BOAZ_beta
 https://blog.malicious.group/writing-your-own-rdi-srdi-loader-using-c-and-asm/
-
-https://research.checkpoint.com/2025/waiting-thread-hijacking/
 https://github.com/Friends-Security/RedirectThread
-
-https://github.com/NUL0x4C/AtomLdr   此项目主要是利用indirect syscalls gadgets和其他技术进行behavior evasion
-https://github.com/kyleavery/AceLdr   此项目主要是memory scanner evasion
-
+https://github.com/NUL0x4C/AtomLdr
+https://github.com/kyleavery/AceLdr
 https://github.com/oldboy21/SWAPPALA
 https://oldboy21.github.io/posts/2024/09/timer-callbacks-spoofing-to-improve-your-sleap-and-swappala-untold/
 ```
 
 # 06-Remote-Inject
 ```
-# APC注入
-    https://repnz.github.io/posts/apc/user-apc/
-    https://repnz.github.io/posts/apc/kernel-user-apc-api/
-    https://repnz.github.io/posts/apc/wow64-user-apc/
-    https://github.com/repnz/apc-research
-# 异常
-    https://bruteratel.com/research/2024/10/20/Exception-Junction/
-    https://github.com/passthehashbrowns/VectoredExceptionHandling
-# 用户层无敌方案
-    https://www.malwaretech.com/2024/02/bypassing-edrs-with-edr-preload.html
-    https://www.outflank.nl/blog/2024/10/15/introducing-early-cascade-injection-from-windows-process-creation-to-stealthy-injection/
-    https://github.com/MalwareTech/EDR-Preloader
-# 硬件断点
-    https://github.com/rad9800/hwbp4mw
+# has read
+【深入理解 Windows 进程属性：从 PPID 欺骗到句柄继承】https://mp.weixin.qq.com/s/-0MbfIWFnpUD2P4IZRBrkQ
+
+# to read
+https://repnz.github.io/posts/apc/user-apc/
+https://repnz.github.io/posts/apc/kernel-user-apc-api/
+https://repnz.github.io/posts/apc/wow64-user-apc/
+https://github.com/repnz/apc-research
+https://bruteratel.com/research/2024/10/20/Exception-Junction/
+https://github.com/passthehashbrowns/VectoredExceptionHandling
+https://www.malwaretech.com/2024/02/bypassing-edrs-with-edr-preload.html
+https://www.outflank.nl/blog/2024/10/15/introducing-early-cascade-injection-from-windows-process-creation-to-stealthy-injection/
+https://github.com/MalwareTech/EDR-Preloader
+https://github.com/rad9800/hwbp4mw
 ```
 
 # 07-Sleep-Mask
 ```
+# to read
 https://www.blackhillsinfosec.com/avoiding-memory-scanners/
-（对内存中的shellcode频繁变动访问权限）https://github.com/mgeeky/ShellcodeFluctuation
+https://github.com/mgeeky/ShellcodeFluctuation
 ```
 
 # 08-Code-Obfuscation
 ```
-# 商业
-Themida   https://www.oreans.com/Themida.php
-VMProtect   https://vmpsoft.com/
-
-# 开源
+# to read
+【Themida】https://www.oreans.com/Themida.php
+【VMProtect】https://vmpsoft.com/
 https://github.com/KomiMoe/Arkari
 https://github.com/obfuscator-llvm/obfuscator
-
-定位二进制中被AV标识的字节
 https://github.com/rasta-mouse/ThreatCheck
 https://github.com/dobin/avred
 ```
@@ -123,14 +115,12 @@ https://www.darkrelay.com/post/stealth-syscall-execution-bypass-edr-detection
 https://medium.com/@andreabocchetti88/living-off-the-com-type-coercion-abuse-108f988bb00a
 https://github.com/TheWover/donut
 https://github.com/vari-sh/RedTeamGrimoire
-
-
 https://www.loldrivers.io/
 https://github.com/m0nad/Diamorphine
 https://github.com/bytecode77/r77-rootkit
 https://github.com/eversinc33/Banshee
-【白驱动 Kill AV/EDR（上）】https://myzxcg.com/2023/09/白驱动-Kill-AV/EDR上/
-【BYOVD ATTACK 学习】https://xz.aliyun.com/news/12373
+https://myzxcg.com/2023/09/白驱动-Kill-AV/EDR上/
+https://xz.aliyun.com/news/12373
 https://www.binarydefense.com/resources/blog/threadsleeper-suspending-threads-via-gmer64-driver/
 https://www.sangfor.com/farsight-labs-threat-intelligence/cybersecurity/what-is-byovd-attacks-2023
 https://github.com/MaorSabag/TrueSightKiller
@@ -176,81 +166,54 @@ https://github.com/MaorSabag/TrueSightKiller
 
 # 10-UAC-Bypass
 ```
-https://github.com/hackerhouse-opensource/iscsicpl_bypassUAC【UACME项目中的RAiLaunchAdminProcess】
+# to read
+https://github.com/hackerhouse-opensource/iscsicpl_bypassUAC
 https://www.elastic.co/security-labs/exploring-windows-uac-bypasses-techniques-and-detection-strategies
 https://github.com/zer0antisec/UACBypass/tree/main
 ```
 
 # 11-Privilege-Escalation
 ```
-目前利用竞态条件居多
+# to read
+https://www.mdsec.co.uk/2026/02/total-recall-retracing-your-steps-back-to-nt-authoritysystem/
 ```
 
 # 12-Persistence
 ```
-0x10 COM
-    https://mohamed-fakroud.gitbook.io/red-teamings-dojo/windows-internals/playing-around-com-objects-part-1
-    https://googleprojectzero.blogspot.com/2025/01/windows-bug-class-accessing-trapped-com.html
-    https://mohamed-fakroud.gitbook.io/red-teamings-dojo/abusing-idispatch-for-trapped-com-object-access-and-injecting-into-ppl-processes
-    https://bohops.com/2018/06/28/abusing-com-registry-structure-clsid-localserver32-inprocserver32/
-    https://bohops.com/2018/08/18/abusing-the-com-registry-structure-part-2-loading-techniques-for-evasion-and-persistence/
-    https://bohops.com/2018/03/17/abusing-exported-functions-and-exposed-dcom-interfaces-for-pass-thru-command-execution-and-lateral-movement/
-    https://www.ibm.com/think/x-force/remotemonologue-weaponizing-dcom-ntlm-authentication-coercions
-    https://www.ibm.com/think/news/fileless-lateral-movement-trapped-com-objects
-    https://medium.com/@andreabocchetti88/living-off-the-com-type-coercion-abuse-108f988bb00a
+# has read
+https://mohamed-fakroud.gitbook.io/red-teamings-dojo/windows-internals/playing-around-com-objects-part-1
+https://googleprojectzero.blogspot.com/2025/01/windows-bug-class-accessing-trapped-com.html
+https://mohamed-fakroud.gitbook.io/red-teamings-dojo/abusing-idispatch-for-trapped-com-object-access-and-injecting-into-ppl-processes
+https://bohops.com/2018/06/28/abusing-com-registry-structure-clsid-localserver32-inprocserver32/
+https://bohops.com/2018/08/18/abusing-the-com-registry-structure-part-2-loading-techniques-for-evasion-and-persistence/
+https://bohops.com/2018/03/17/abusing-exported-functions-and-exposed-dcom-interfaces-for-pass-thru-command-execution-and-lateral-movement/
+https://www.ibm.com/think/x-force/remotemonologue-weaponizing-dcom-ntlm-authentication-coercions
+https://www.ibm.com/think/news/fileless-lateral-movement-trapped-com-objects
+https://medium.com/@andreabocchetti88/living-off-the-com-type-coercion-abuse-108f988bb00a
 ```
 
 # 13-Credential-Dump
 ```
+# to read
 https://github.com/cube0x0/MiniDump
 ```
 
-# 免杀对抗结合AI
+# 14-Evasion-With-LLM
 ```
+# to read
 https://mp.weixin.qq.com/s/VVmDDPcChtWF_yA-zv47zQ?click_id=1
 https://www.outflank.nl/blog/2025/08/07/training-specialist-models/
 ```
 
-# Linux/MacOS下免杀对抗
-```
-# 二进制/Shell脚本混淆器
-https://github.com/hackerschoice/bincrypter
-```
-
 # Misc
 ```
-0x01 国家级APT攻击
-    https://mp.weixin.qq.com/s/ZUR7-2OdZcQiq8A8qiptwg【揭露天鹅向量（Swan Vector）APT组织：针对中国台湾和日本的多阶段DLL植入攻击，使用的技术：lnk钓鱼、rundll32、api hash、dll劫持、syscall】
-    https://mp.weixin.qq.com/s/S7Iq5DfO7xNX3GPJzwedPw
-    https://research.checkpoint.com/2025/stealth-falcon-zero-day/
-
-0x02 阻断EDR Agent和Server端交流
-    https://cloudbrothers.info/en/edr-silencers-exploring-methods-block-edr-communication-part-1/
-
-0x03 WinDBG使用
-    https://p.ost2.fyi/
-
-0x04 逆向工程
-    https://github.com/DebugPrivilege/InsightEngineering
-    0x16 内核调试
-    https://www.youtube.com/watch?v=K5abwBNb76k&list=PLUFkSN0XLZ-ka9dfeHWmhqDV-qIns-9uR
-    https://www.youtube.com/watch?v=_5c8ErwyqiU&list=PLUFkSN0XLZ-kOQnYJwx3x9wPMDjlv2iSg
-    https://www.youtube.com/watch?v=SSerGWQW70c&list=PLUFkSN0XLZ-nl4HEX4_LWG9H_d9vJKkYL
-
-0x05 BOF开发
-    https://github.com/NetSPI/BOF-PE
-    https://devco.re/blog/2024/08/23/streaming-vulnerabilities-from-windows-kernel-proxying-to-kernel-part1-en/
-    https://devco.re/blog/2024/10/05/streaming-vulnerabilities-from-windows-kernel-proxying-to-kernel-part2-en/
-    https://www.ibm.com/think/x-force/little-bug-that-could
-    https://www.ibm.com/think/x-force/critically-close-to-zero-day-exploiting-microsoft-kernel-streaming-service
-    https://github.com/Mr-Un1k0d3r/EDRs
-    https://github.com/tdeerenberg/InlineWhispers3
-    https://blog.quarkslab.com/proxyblobing-into-your-network.html
-    https://github.com/serge1/COFFI
-
-0x06 C/C++开发
-    https://github.com/serge1/COFFI
-    https://github.com/vxunderground/VX-API/tree/main/VX-API
-    https://github.com/0cch/moderncpp_public
-    https://www.ired.team/offensive-security/defense-evasion/how-to-unhook-a-dll-using-c++
+【揭露天鹅向量（Swan Vector）APT组织：针对中国台湾和日本的多阶段DLL植入攻击】https://mp.weixin.qq.com/s/ZUR7-2OdZcQiq8A8qiptwg
+【Operation(润)RUN：“离岸爱国者”的赛博狂欢】https://mp.weixin.qq.com/s/S7Iq5DfO7xNX3GPJzwedPw
+【CVE-2025-33053, Stealth Falcon and Horus: A Saga of Middle Eastern Cyber Espionage】https://research.checkpoint.com/2025/stealth-falcon-zero-day/
+【阻断EDR Agent和Server端交流】https://cloudbrothers.info/en/edr-silencers-exploring-methods-block-edr-communication-part-1/
+【WinDBG使用】https://p.ost2.fyi/
+【逆向工程】https://github.com/DebugPrivilege/InsightEngineering
+【内核调试1】https://www.youtube.com/watch?v=K5abwBNb76k&list=PLUFkSN0XLZ-ka9dfeHWmhqDV-qIns-9uR
+【内核调试2】https://www.youtube.com/watch?v=_5c8ErwyqiU&list=PLUFkSN0XLZ-kOQnYJwx3x9wPMDjlv2iSg
+【内核调试3】https://www.youtube.com/watch?v=SSerGWQW70c&list=PLUFkSN0XLZ-nl4HEX4_LWG9H_d9vJKkYL
 ```
