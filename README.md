@@ -1,3 +1,10 @@
+# 说明
+```
+当前项目子目录中的代码均为测试过可成功编译且功能正常
+
+The code in the current project subdirectory has all been tested and found to be successfully compilable and functioning properly.
+```
+
 # 01-DLL-Hijacking
 ```
 https://hijacklibs.net/
