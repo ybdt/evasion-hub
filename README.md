@@ -1,33 +1,22 @@
-# Attention
-```
-当前项目子目录中的代码均为测试过可成功编译且功能正常
-
-The code in the current project subdirectory has all been tested and found to be successfully compilable and functioning properly.
-```
+The code in current project has been tested compile successfully and function properly.
 
 # 01-DLL-Hijacking
 ```
-# has read
 【HijackLibs】https://hijacklibs.net/
 【DLL Sideloading for Initial Access – Red Team Operator's Guide】https://print3m.github.io/blog/dll-sideloading-for-initial-access
-
-# to read
-https://www.r-tec.net/r-tec-blog-dll-sideloading.html
+【DLL Sideloading】https://www.r-tec.net/r-tec-blog-dll-sideloading.html
 ```
 
 # 02-Function-Address-Locate
 ```
-# has read
-https://github.com/LloydLabs/Windows-API-Hashing/
-
-# to read
-https://github.com/Teach2Breach/stargate/blob/main/blog.md
-https://mp.weixin.qq.com/s/O4LCnC_DjzfvnLvgXm1bFQ
+【Windows-API-Hashing】https://github.com/LloydLabs/Windows-API-Hashing/
+【Windows安全攻防-PEB&TEB】https://mp.weixin.qq.com/s/RTyafWl13djCI5ua6LFQ6w
+【Stargate: Bypassing EDR Hooks Through Signature-Based Function Discovery】https://github.com/Teach2Breach/stargate/blob/main/blog.md
+【答应我，别在shellcode中通过遍历PEB获取模块基址了好么？】https://mp.weixin.qq.com/s/O4LCnC_DjzfvnLvgXm1bFQ
 ```
 
 # 03-Sandbox-Evasion
 ```
-# to read
 https://av.aabyss.cn/
 https://tasklist.pdsec.top/
 http://bypass.tidesec.com/bycms
@@ -42,17 +31,14 @@ https://github.com/UmaRex01/HookSentry
 
 # 04-AMSI-and-ETW-Bypass
 ```
-# to read
 https://github.com/EvilBytecode/Ebyte-AMSI-ProxyInjector
 https://www.r-tec.net/r-tec-blog-bypass-amsi-in-2025.html
 ```
 
 # 05-Allocate-Write-Execute
 ```
-# has read
 【Thread Name-Calling – using Thread Name for offense】https://research.checkpoint.com/2024/thread-name-calling-using-thread-name-for-offense/
-
-# to read
+【绕过 Elatic EDR 用户态 Hook：从原理到实战】https://mp.weixin.qq.com/s/ghG4d9ebz2fccAOf6sawEQ?scene=1
 https://research.checkpoint.com/2025/waiting-thread-hijacking/
 https://github.com/thomasxm/BOAZ_beta
 https://blog.malicious.group/writing-your-own-rdi-srdi-loader-using-c-and-asm/
@@ -65,10 +51,7 @@ https://oldboy21.github.io/posts/2024/09/timer-callbacks-spoofing-to-improve-you
 
 # 06-Remote-Inject
 ```
-# has read
 【深入理解 Windows 进程属性：从 PPID 欺骗到句柄继承】https://mp.weixin.qq.com/s/-0MbfIWFnpUD2P4IZRBrkQ
-
-# to read
 https://repnz.github.io/posts/apc/user-apc/
 https://repnz.github.io/posts/apc/kernel-user-apc-api/
 https://repnz.github.io/posts/apc/wow64-user-apc/
@@ -83,24 +66,28 @@ https://github.com/rad9800/hwbp4mw
 
 # 07-Sleep-Mask
 ```
-# to read
-https://www.blackhillsinfosec.com/avoiding-memory-scanners/
+【绕过杀软EDR内存扫描】https://mp.weixin.qq.com/s/ep376tna5lZX50eu5oLMfA?scene=1
+【Avoiding Memory Scanners】https://www.blackhillsinfosec.com/avoiding-memory-scanners/
 https://github.com/mgeeky/ShellcodeFluctuation
 ```
 
 # 08-Code-Obfuscation
 ```
-# to read
-【Themida】https://www.oreans.com/Themida.php
-【VMProtect】https://vmpsoft.com/
+https://www.oreans.com/Themida.php
+https://vmpsoft.com/
 https://github.com/KomiMoe/Arkari
 https://github.com/obfuscator-llvm/obfuscator
 https://github.com/rasta-mouse/ThreatCheck
 https://github.com/dobin/avred
 ```
 
+
 # 09-EDR-Blindness
 ```
+【"银狐"新进展：多Rootkit配合，内核InfinityHook+穿透读写】https://mp.weixin.qq.com/s/yzEuztYDbiSv0YrN2My_Ow?scene=1
+【持续演进的银狐——不断增加脆弱驱动通过BYOVD结束防病毒软件】https://mp.weixin.qq.com/s/S_y9pfiqgcMV9wusELOfBw?scene=1
+【利用AppLocker策略关闭EDR】https://mp.weixin.qq.com/s/qMW0Ct4e8zpL6sUghEc7Hg?scene=1
+【【安全研究】使用内核驱动程序来隐藏和终止进程】https://mp.weixin.qq.com/s/IBZITOzGJYMVo4Be7_pb7Q?scene=1
 https://synzack.github.io/Blinding-EDR-On-Windows/
 https://mp.weixin.qq.com/s/AAKMYtASCcTfm1DIqTPQLg
 https://github.com/Hagrid29/PELoader
@@ -166,7 +153,6 @@ https://github.com/MaorSabag/TrueSightKiller
 
 # 10-UAC-Bypass
 ```
-# to read
 https://github.com/hackerhouse-opensource/iscsicpl_bypassUAC
 https://www.elastic.co/security-labs/exploring-windows-uac-bypasses-techniques-and-detection-strategies
 https://github.com/zer0antisec/UACBypass/tree/main
@@ -174,13 +160,11 @@ https://github.com/zer0antisec/UACBypass/tree/main
 
 # 11-Privilege-Escalation
 ```
-# to read
 https://www.mdsec.co.uk/2026/02/total-recall-retracing-your-steps-back-to-nt-authoritysystem/
 ```
 
 # 12-Persistence
 ```
-# has read
 https://mohamed-fakroud.gitbook.io/red-teamings-dojo/windows-internals/playing-around-com-objects-part-1
 https://googleprojectzero.blogspot.com/2025/01/windows-bug-class-accessing-trapped-com.html
 https://mohamed-fakroud.gitbook.io/red-teamings-dojo/abusing-idispatch-for-trapped-com-object-access-and-injecting-into-ppl-processes
@@ -194,26 +178,28 @@ https://medium.com/@andreabocchetti88/living-off-the-com-type-coercion-abuse-108
 
 # 13-Credential-Dump
 ```
-# to read
+https://github.com/dazzyddos/lsawhisper-bof
+https://github.com/EvanMcBroom/lsa-whisperer
 https://github.com/cube0x0/MiniDump
 ```
 
 # 14-Evasion-With-LLM
 ```
-# to read
-https://mp.weixin.qq.com/s/VVmDDPcChtWF_yA-zv47zQ?click_id=1
-https://www.outflank.nl/blog/2025/08/07/training-specialist-models/
+【还在手搓免杀？时代变了】https://mp.weixin.qq.com/s/VVmDDPcChtWF_yA-zv47zQ?click_id=1
+【Training Specialist Models: Automating Malware Development】https://www.outflank.nl/blog/2025/08/07/training-specialist-models/
 ```
 
 # Misc
 ```
-【揭露天鹅向量（Swan Vector）APT组织：针对中国台湾和日本的多阶段DLL植入攻击】https://mp.weixin.qq.com/s/ZUR7-2OdZcQiq8A8qiptwg
-【Operation(润)RUN：“离岸爱国者”的赛博狂欢】https://mp.weixin.qq.com/s/S7Iq5DfO7xNX3GPJzwedPw
-【CVE-2025-33053, Stealth Falcon and Horus: A Saga of Middle Eastern Cyber Espionage】https://research.checkpoint.com/2025/stealth-falcon-zero-day/
-【阻断EDR Agent和Server端交流】https://cloudbrothers.info/en/edr-silencers-exploring-methods-block-edr-communication-part-1/
-【WinDBG使用】https://p.ost2.fyi/
-【逆向工程】https://github.com/DebugPrivilege/InsightEngineering
-【内核调试1】https://www.youtube.com/watch?v=K5abwBNb76k&list=PLUFkSN0XLZ-ka9dfeHWmhqDV-qIns-9uR
-【内核调试2】https://www.youtube.com/watch?v=_5c8ErwyqiU&list=PLUFkSN0XLZ-kOQnYJwx3x9wPMDjlv2iSg
-【内核调试3】https://www.youtube.com/watch?v=SSerGWQW70c&list=PLUFkSN0XLZ-nl4HEX4_LWG9H_d9vJKkYL
+【x64汇编与shellcode入门教程 01】https://mp.weixin.qq.com/s/HzEWKEpYpeBNJyk4IEll2g?scene=1
+【x64汇编与shellcode入门教程 02】https://mp.weixin.qq.com/s/vEfsmgBpEOJSzvXcvnEtUA?scene=1
+【x64汇编与shellcode入门教程 03】https://mp.weixin.qq.com/s/bJnqwt0_9rQCmaYZFrcFKg?scene=1
+【x64汇编与shellcode入门教程 04】https://mp.weixin.qq.com/s/-SEK85Fflt-Gr_Km9YcD3w?scene=1
+【x64汇编与shellcode入门教程 05】https://mp.weixin.qq.com/s/xC02bij37DTr_j4arJi_ag?scene=1
+【x64汇编与shellcode入门教程 06】https://mp.weixin.qq.com/s/db2pQXBx44IF4Dst0hw9sQ?scene=1
+【x64汇编与shellcode入门教程 07】https://mp.weixin.qq.com/s/AmjTv9wzFqzV1GKZYUecNQ
+【OpenSecurityTraining2】https://p.ost2.fyi/
+【Debuggers 3011, Advanced WinDbg】https://www.youtube.com/watch?v=K5abwBNb76k&list=PLUFkSN0XLZ-ka9dfeHWmhqDV-qIns-9uR
+【Architecture 2821, Windows Kernel Internels 2】https://www.youtube.com/watch?v=_5c8ErwyqiU&list=PLUFkSN0XLZ-kOQnYJwx3x9wPMDjlv2iSg
+【Exploitation 4011, Windows Kernel Exploitation: Race Condition + UAF in KTM】https://www.youtube.com/watch?v=SSerGWQW70c&list=PLUFkSN0XLZ-nl4HEX4_LWG9H_d9vJKkYL
 ```
