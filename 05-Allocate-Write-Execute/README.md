@@ -1,7 +1,7 @@
-0x01 基于Lua实现shellcode loader  
-代码仓库：0x01-Lua-Shellcode-Loader  
+0x01 Lua based shellcode loader  
+Code: 0x01-Lua-Shellcode-Loader  
 
-# 优秀文章项目
+# Excellent-Article-Project
 ```
 【Thread Name-Calling – using Thread Name for offense】https://research.checkpoint.com/2024/thread-name-calling-using-thread-name-for-offense/
 【绕过 Elatic EDR 用户态 Hook：从原理到实战】https://mp.weixin.qq.com/s/ghG4d9ebz2fccAOf6sawEQ?scene=1

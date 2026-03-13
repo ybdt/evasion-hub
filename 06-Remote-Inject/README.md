@@ -1,8 +1,8 @@
 0x01 深入理解 Windows 进程属性：从 PPID 欺骗到句柄继承  
-文章地址：https://mp.weixin.qq.com/s/-0MbfIWFnpUD2P4IZRBrkQ  
-代码仓库：0x01-PPID-Spoof-EarlyBird-Injection-System-Whitelist  
+Article: https://mp.weixin.qq.com/s/-0MbfIWFnpUD2P4IZRBrkQ  
+Code: 0x01-PPID-Spoof-EarlyBird-Injection-System-Whitelist  
 
-# 优秀文章项目
+# Excellent-Article-Project
 ```
 【深入理解 Windows 进程属性：从 PPID 欺骗到句柄继承】https://mp.weixin.qq.com/s/-0MbfIWFnpUD2P4IZRBrkQ
 https://repnz.github.io/posts/apc/user-apc/

@@ -1,14 +1,14 @@
-0x01 通过GetModuleHandle + GetProcAddress动态获取函数地址  
-代码仓库：0x01-动态获取函数地址--GetModuleHandle + GetProcAddress  
+0x01 GetModuleHandle + GetProcAddress  
+Code: 0x01-GetModuleHandle-GetProcAddress  
 
-0x02 遍历EAT动态获取函数地址  
-代码仓库：0x02-动态获取函数地址--遍历EAT  
+0x02 Traverse Export Address Table  
+Code: 0x02-Traverse-Export-Address-Table  
 
-0x03 通过NtReadVirtualMemory动态获取函数地址  
-文章地址：https://ybdt.me/2025/07/28/利用NtReadVirtualMemory实现IAT中规避高危API/  
-代码仓库：0x03-动态获取函数地址--通过NtReadVirtualMemory  
+0x03 With the help of NtReadVirtualMemory  
+Article: https://ybdt.me/2025/07/28/利用NtReadVirtualMemory实现IAT中规避高危API/  
+Code: 0x03-NtReadVirtualMemory  
 
-# 优秀文章项目
+# Excellent-Article-Project
 ```
 【Windows-API-Hashing】https://github.com/LloydLabs/Windows-API-Hashing/
 【Windows安全攻防-PEB&TEB】https://mp.weixin.qq.com/s/RTyafWl13djCI5ua6LFQ6w

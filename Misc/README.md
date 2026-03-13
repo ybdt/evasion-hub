@@ -6,10 +6,10 @@
 文章地址：https://ybdt.me/2026/02/09/深入学习PE文件结构系列五自己实现一个PE解析器/  
 代码仓库：0x01-PE-Parser  
 
-0x02 三种添加用户方式：NetUser、NetAPI、Sam  
+0x02 Three method of add user：NetUser、NetAPI、Sam  
 代码仓库：0x02-AddUserEvasion  
 
-# 优秀文章项目
+# Excellent-Article-Project
 ```
 【x64汇编与shellcode入门教程 01】https://mp.weixin.qq.com/s/HzEWKEpYpeBNJyk4IEll2g?scene=1
 【x64汇编与shellcode入门教程 02】https://mp.weixin.qq.com/s/vEfsmgBpEOJSzvXcvnEtUA?scene=1
