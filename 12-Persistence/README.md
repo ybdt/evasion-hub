@@ -6,7 +6,7 @@
 文章地址：https://ybdt.me/2026/01/24/Windows任务计划COM-Handler在权限维持中的应用/  
 代码仓库：0x02-COM-Handler  
 
-# Excellent-Article-Project
+# Excellent-Article-and-Project
 ```
 https://mohamed-fakroud.gitbook.io/red-teamings-dojo/windows-internals/playing-around-com-objects-part-1
 https://googleprojectzero.blogspot.com/2025/01/windows-bug-class-accessing-trapped-com.html

@@ -8,7 +8,7 @@ Code: 0x02-Traverse-Export-Address-Table
 Article: https://ybdt.me/2025/07/28/利用NtReadVirtualMemory实现IAT中规避高危API/  
 Code: 0x03-NtReadVirtualMemory  
 
-# Excellent-Article-Project
+# Excellent-Article-and-Project
 ```
 【Windows-API-Hashing】https://github.com/LloydLabs/Windows-API-Hashing/
 【Windows安全攻防-PEB&TEB】https://mp.weixin.qq.com/s/RTyafWl13djCI5ua6LFQ6w
